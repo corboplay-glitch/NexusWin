@@ -29,8 +29,8 @@
       "_nota": "Categoría tipo 'app': NO muestra juegos. Con 'app' (package) + 'apk' (instalador). Si está instalada la abre; si no, ofrece instalar. Aparece en el home justo después de Android.",
       "id": "streaming", "name": "Servicio de Streaming", "icon": "📺", "accent": "#e11d48",
       "desc": "Disfrutá de TV en vivo, pelis, series y música. Pedile tu cuenta a tu proveedor.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/streaming.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/streaming.png",
+      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/streaming.png",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/streaming1.png",
       "app": "com.defiance.tv",
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/apps/defiance.apk",
       "games": []
