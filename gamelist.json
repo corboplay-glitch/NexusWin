@@ -1,0 +1,87 @@
+{
+  "_comentario": "Formato del gamelist de NexusArcade. Va en tu VPS como gamelist.json (NO lo pises con el catalog.json de la tienda) y queda embebido como respaldo. type de emulador: 'view' (abre la ROM con esa app), 'retroarch' (componente RetroArch + core), 'app' (abre una app externa con su propio catalogo, ej. la APK de PS2 de Brasil). 'apk' = URL del APK en tu VPS: si el emulador no esta instalado, el launcher lo baja y lo instala solo.",
+
+  "music": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/music/ambient.mp3",
+
+  "emulators": {
+    "retroarch":   { "name": "RetroArch",              "package": "com.retroarch",                  "type": "retroarch", "core": "/data/data/com.retroarch/cores/pcsx_rearmed_libretro.so", "apk": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/emus/retroarch.apk" },
+    "duckstation": { "name": "DuckStation",             "package": "com.github.stenzek.duckstation", "type": "view", "apk": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/emus/duckstation.apk" },
+    "aethersx2":   { "name": "AetherSX2",               "package": "xyz.aethersx2.android",          "type": "view", "apk": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/emus/aethersx2.apk" },
+    "nethersx2":   { "name": "NetherSX2",               "package": "xyz.aethersx2.android",          "type": "view", "apk": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/emus/nethersx2.apk" },
+    "damonps2":    { "name": "DamonPS2",                "package": "com.damonps2.emulator",          "type": "view", "apk": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/emus/damonps2.apk" },
+    "ps2app":      { "name": "PS2 Games (app externa)", "package": "com.ps2games.br",                "type": "app",  "apk": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/emus/ps2games.apk" },
+    "snes9x":      { "name": "Snes9x EX+",              "package": "com.explusalpha.Snes9xPlus",     "type": "view", "apk": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/emus/snes9x.apk" },
+    "mupen64":     { "name": "Mupen64Plus FZ",          "package": "org.mupen64plusae.v3.fzurita",   "type": "view", "apk": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/emus/mupen64.apk" },
+    "fbneo":       { "name": "FinalBurn Neo",           "package": "com.retroarch",                  "type": "retroarch", "core": "/data/data/com.retroarch/cores/fbneo_libretro.so", "apk": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/emus/retroarch.apk" }
+  },
+
+  "systems": [
+    {
+      "id": "ps1", "name": "PlayStation", "icon": "🎮", "accent": "#2f6fed",
+      "desc": "Disfrutá los mejores títulos de PlayStation.",
+      "fondo": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/fondos/ps1.jpg",
+      "romDir": "PS1", "extensions": ["bin","cue","chd","pbp","iso"],
+      "emulators": ["duckstation","retroarch"],
+      "games": [
+        { "id":"tekken3", "title":"Tekken 3", "year":1998, "rating":4.5, "genre":"Lucha",
+          "desc":"Una nueva generación de guerreros. Gráficos alucinantes para la época.",
+          "cover":"https://seedbox01.snthostings.com/cloudalpha47/media/aura/covers/ps1/tekken3.jpg",
+          "file":"Tekken 3.chd", "download":"https://seedbox01.snthostings.com/cloudalpha47/media/aura/ps1/tekken3.zip", "size":"350 MB",
+          "emulators":["duckstation","retroarch"] }
+      ]
+    },
+    {
+      "id": "ps2", "name": "PlayStation 2", "icon": "🕹️", "accent": "#1a4fd0",
+      "desc": "Disfrutá los mejores títulos de PlayStation 2. Bajás, jugás y si no lo querés más lo borrás.",
+      "fondo": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/fondos/ps2.jpg",
+      "romDir": "PS2", "extensions": ["iso","chd","bin"],
+      "emulators": ["aethersx2","nethersx2","damonps2","ps2app"],
+      "games": [
+        { "id":"sotc", "title":"Shadow of the Colossus", "year":2005, "rating":4.9, "genre":"Aventura",
+          "desc":"Derrotá 16 colosos gigantes en un mundo silencioso e inmenso.",
+          "cover":"https://seedbox01.snthostings.com/cloudalpha47/media/aura/covers/ps2/sotc.jpg",
+          "file":"SOTC.iso", "download":"https://seedbox01.snthostings.com/cloudalpha47/media/aura/ps2/sotc.zip", "size":"1.4 GB",
+          "emulators":["aethersx2","nethersx2","ps2app"] }
+      ]
+    },
+    {
+      "id": "snes", "name": "Super Nintendo", "icon": "🎛️", "accent": "#8b5cf6",
+      "desc": "Los clásicos de Super Nintendo que marcaron una época.",
+      "fondo": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/fondos/snes.jpg",
+      "romDir": "SNES", "extensions": ["smc","sfc","zip"],
+      "emulators": ["snes9x","retroarch"],
+      "games": [
+        { "id":"smw", "title":"Super Mario World", "year":1990, "rating":4.9, "genre":"Plataformas",
+          "desc":"Mario y Yoshi en el clásico definitivo de plataformas.",
+          "cover":"https://seedbox01.snthostings.com/cloudalpha47/media/aura/covers/snes/smw.jpg",
+          "file":"SuperMarioWorld.sfc", "download":"https://seedbox01.snthostings.com/cloudalpha47/media/aura/snes/smw.zip", "size":"512 KB" }
+      ]
+    },
+    {
+      "id": "n64", "name": "Nintendo 64", "icon": "🎯", "accent": "#e0342f",
+      "desc": "Revive las aventuras en 3D de la Nintendo 64.",
+      "fondo": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/fondos/n64.jpg",
+      "romDir": "N64", "extensions": ["z64","n64","v64"],
+      "emulators": ["mupen64","retroarch"],
+      "games": [
+        { "id":"sm64", "title":"Super Mario 64", "year":1996, "rating":4.9, "genre":"Plataformas",
+          "desc":"El salto a las 3D que cambió los videojuegos para siempre.",
+          "cover":"https://seedbox01.snthostings.com/cloudalpha47/media/aura/covers/n64/sm64.jpg",
+          "file":"SuperMario64.z64", "download":"https://seedbox01.snthostings.com/cloudalpha47/media/aura/n64/sm64.zip", "size":"8 MB" }
+      ]
+    },
+    {
+      "id": "arcade", "name": "Arcade", "icon": "👾", "accent": "#f59e0b",
+      "desc": "La adrenalina de los fichines, directo a tu tele.",
+      "fondo": "https://seedbox01.snthostings.com/cloudalpha47/media/aura/fondos/arcade.jpg",
+      "romDir": "ARCADE", "extensions": ["zip"],
+      "emulators": ["fbneo","retroarch"],
+      "games": [
+        { "id":"mslug3", "title":"Metal Slug 3", "year":2000, "rating":4.8, "genre":"Run & Gun",
+          "desc":"El run & gun más querido de los fichines.",
+          "cover":"https://seedbox01.snthostings.com/cloudalpha47/media/aura/covers/arcade/mslug3.jpg",
+          "file":"mslug3.zip", "download":"https://seedbox01.snthostings.com/cloudalpha47/media/aura/arcade/mslug3.zip", "size":"30 MB" }
+      ]
+    }
+  ]
+}
