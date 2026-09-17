@@ -1,0 +1,54 @@
+{
+  "_comentario": "NexusStore. Subilo a raw.githubusercontent.com/corboplay-glitch/NexusWin/main/store.json . Categorias: cada una tiene 'items'. type: 'apk' (instala una app/emulador; poné 'package' para saber si ya está instalada), 'rom' (baja un juego a la carpeta del sistema: 'system' = carpeta romDir ej PS1/GENESIS, 'file' = nombre final), 'link' (informativo). Los archivos pesados (apk/rom) van en Releases; las imagenes/este json en el repo.",
+
+  "categories": [
+    {
+      "id": "apps", "name": "Apps Android", "icon": "📱",
+      "items": [
+        { "name":"SmartTube", "desc":"YouTube sin ads, liviano para TV", "icon":"▶️", "type":"apk",
+          "package":"com.teamsmart.videomanager.tv",
+          "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/apps/smarttube.apk", "size":"20 MB" },
+        { "name":"Navegador", "desc":"Navegador web liviano", "icon":"🌐", "type":"apk",
+          "package":"com.brave.browser",
+          "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/apps/navegador.apk", "size":"40 MB" }
+      ]
+    },
+    {
+      "id": "emus", "name": "Emuladores", "icon": "🎮",
+      "items": [
+        { "name":"DuckStation (PS1)", "desc":"Emulador PS1", "icon":"🎮", "type":"apk",
+          "package":"com.github.stenzek.duckstation",
+          "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/emus/duckstation.apk", "size":"25 MB" },
+        { "name":"ePSXe (PS1)", "desc":"Emulador PS1 (requiere BIOS)", "icon":"🎮", "type":"apk",
+          "package":"com.epsxe.ePSXe",
+          "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/emus/epsxe.apk", "size":"10 MB" },
+        { "name":"PPSSPP (PSP)", "desc":"Emulador PSP", "icon":"🎮", "type":"apk",
+          "package":"org.ppsspp.ppsspp",
+          "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/emus/ppsspp.apk", "size":"30 MB" },
+        { "name":"RetroArch 64-bit", "desc":"Multi-sistema (64-bit)", "icon":"🕹️", "type":"apk",
+          "package":"com.retroarch.aarch64",
+          "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch64.apk", "size":"120 MB" },
+        { "name":"RetroArch 32-bit", "desc":"Multi-sistema (32-bit, TV box viejas)", "icon":"🕹️", "type":"apk",
+          "package":"com.retroarch",
+          "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch32.apk", "size":"110 MB" },
+        { "name":"MD.emu (Sega)", "desc":"Mega Drive / Master System", "icon":"🕹️", "type":"apk",
+          "package":"com.explusalpha.MdEmu",
+          "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/emus/mdemu.apk", "size":"12 MB" }
+      ]
+    },
+    {
+      "id": "roms", "name": "Juegos", "icon": "💿",
+      "items": [
+        { "name":"Tekken 3 (PS1)", "desc":"Lucha · 350 MB", "icon":"🎮", "type":"rom",
+          "system":"PS1", "file":"Tekken 3.chd",
+          "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/tekken3.chd", "size":"350 MB" },
+        { "name":"Sonic 2 (Genesis)", "desc":"Plataformas · 1 MB", "icon":"🕹️", "type":"rom",
+          "system":"GENESIS", "file":"Sonic2.md",
+          "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/genesis/Sonic2.md", "size":"1 MB" },
+        { "name":"Metal Slug 3 (Arcade)", "desc":"Run & Gun · 30 MB", "icon":"👾", "type":"rom",
+          "system":"ARCADE", "file":"mslug3.zip",
+          "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/arcade/mslug3.zip", "size":"30 MB" }
+      ]
+    }
+  ]
+}
