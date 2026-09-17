@@ -31,7 +31,7 @@
           "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch64.apk", "size":"120 MB" },
         { "name":"RetroArch 32-bit", "desc":"Multi-sistema (32-bit, TV box viejas)", "icon":"🕹️", "type":"apk",
           "package":"com.retroarch",
-          "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch32.apk", "size":"110 MB" },
+          "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/emus/RetroArch_ra32.apk", "size":"110 MB" },
         { "name":"MD.emu (Sega)", "desc":"Mega Drive / Master System", "icon":"🕹️", "type":"apk",
           "package":"com.explusalpha.MdEmu",
           "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/emus/mdemu.apk", "size":"12 MB" }
