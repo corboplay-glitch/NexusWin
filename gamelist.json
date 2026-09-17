@@ -2,7 +2,17 @@
   "_comentario": "gamelist de NexusArcade. Editalo y subilo a: raw.githubusercontent.com/corboplay-glitch/NexusWin/main/gamelist.json . Los archivos chicos (covers, fondos, music, este json) van en el repo (raw/main). Los pesados (ROMs y APKs de emuladores) van en Releases. NO dejes comas de mas antes de } o ] (igual el launcher ahora las tolera). 'file' = nombre final que queda tras bajar; para PS1 con bin+cue poné el .cue. Si 'download' es .zip y 'file' NO es .zip, el launcher lo descomprime solo; si 'file' es .zip (arcade/snes) lo deja comprimido. PS2/PSP/etc tambien aceptan descarga directa .iso/.chd (sin zip).",
 
   "music": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/inicio-menu-intro.mp3",
-  "web": "nexusconsola.win",
+  "web": "nexusarcade.win",
+
+  "_sfx_nota": "Efectos de sonido de la interfaz. move=al moverse por botones, select=al apretar OK, back=al volver, newuser=al crear usuario, download=al terminar una descarga, startup=sonido de arranque en la pantalla de usuarios.",
+  "sfx": {
+    "move":     "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/moverse-en-botones-scroll.mp3",
+    "select":   "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/select-button.mp3",
+    "back":     "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/back-button.mp3",
+    "newuser":  "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/al-crear-user-nuevo.mp3",
+    "download": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/archivment-get-noti-descargas.mp3",
+    "startup":  "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/inicio-al-prender-selec-user.mp3"
+  },
 
   "emulators": {
     "retroarch":   { "name": "RetroArch (32-bit)", "package": "com.retroarch",                  "type": "retroarch", "core": "/data/data/com.retroarch/cores/pcsx_rearmed_libretro.so",          "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch32.apk" },
@@ -29,8 +39,8 @@
       "_nota": "Categoría tipo 'app': NO muestra juegos. Con 'app' (package) + 'apk' (instalador). Si está instalada la abre; si no, ofrece instalar. Aparece en el home justo después de Android.",
       "id": "streaming", "name": "Servicio de Streaming", "icon": "📺", "accent": "#e11d48",
       "desc": "Disfrutá de TV en vivo, pelis, series y música. Pedile tu cuenta a tu proveedor.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/streaming.png",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/streaming1.png",
+      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/streaming.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/streaming.png",
       "app": "com.defiance.tv",
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/apps/defiance.apk",
       "games": []
