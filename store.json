@@ -7,6 +7,7 @@
       "items": [
         { "name":"SmartTube", "desc":"YouTube sin ads, liviano para TV", "icon":"▶️", "type":"apk",
           "package":"com.teamsmart.videomanager.tv",
+          "image":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/smarttube.png",
           "url":"https://github.com/corboplay-glitch/NexusWin/releases/download/apps/smarttube.apk", "size":"20 MB" },
         { "name":"Navegador", "desc":"Navegador web liviano", "icon":"🌐", "type":"apk",
           "package":"com.brave.browser",
