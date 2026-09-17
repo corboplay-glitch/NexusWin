@@ -26,7 +26,7 @@
         { "id":"tekken3", "title":"Tekken 3", "year":1998, "rating":4.5, "genre":"Lucha",
           "desc":"Una nueva generación de guerreros. Gráficos alucinantes para la época.",
           "cover":"https://seedbox01.snthostings.com/cloudalpha47/media/aura/covers/ps1/tekken3.jpg",
-          "file":"Tekken 3.chd", "download":"https://seedbox01.snthostings.com/cloudalpha47/media/aura/ps1/tekken3.zip", "size":"350 MB",
+          "file":"Tekken 3.chd", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/Mortal.Kombat.4.USA.bin", "size":"680 MB",
           "emulators":["duckstation","retroarch"] }
       ]
     },
