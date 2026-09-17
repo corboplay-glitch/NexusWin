@@ -2,6 +2,7 @@
   "_comentario": "gamelist de NexusArcade. Editalo y subilo a: raw.githubusercontent.com/corboplay-glitch/NexusWin/main/gamelist.json . Los archivos chicos (covers, fondos, music, este json) van en el repo (raw/main). Los pesados (ROMs y APKs de emuladores) van en Releases. NO dejes comas de mas antes de } o ] (igual el launcher ahora las tolera). 'file' = nombre final que queda tras bajar; para PS1 con bin+cue poné el .cue. Si 'download' es .zip y 'file' NO es .zip, el launcher lo descomprime solo; si 'file' es .zip (arcade/snes) lo deja comprimido. PS2/PSP/etc tambien aceptan descarga directa .iso/.chd (sin zip).",
 
   "music": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/ambient.mp3",
+  "web": "nexusarcade.win",
 
   "emulators": {
     "retroarch":   { "name": "RetroArch (32-bit)", "package": "com.retroarch",                  "type": "retroarch", "core": "/data/data/com.retroarch/cores/pcsx_rearmed_libretro.so",          "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch32.apk" },
