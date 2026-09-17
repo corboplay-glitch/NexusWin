@@ -1,5 +1,5 @@
 {
-  "_comentario": "gamelist de NexusArcade. Editalo y subilo a: raw.githubusercontent.com/corboplay-glitch/NexusWin/main/gamelist.json . Los archivos chicos (covers, fondos, logos, music, este json) van en el repo (raw/main). Los pesados (ROMs y APKs de emuladores) van en Releases. NO dejes comas de mas antes de } o ] (igual el launcher ahora las tolera). 'file' = nombre final que queda tras bajar; para PS1 con bin+cue poné el .cue. Si 'download' es .zip y 'file' NO es .zip, el launcher lo descomprime solo; si 'file' es .zip (arcade/snes) lo deja comprimido. PS2/PSP/etc tambien aceptan descarga directa .iso/.chd (sin zip). 'fondo'=imagen grande de atras, 'icono'=logo del boton (PNG cuadrado con transparencia).",
+  "_comentario": "gamelist de NexusArcade. Editalo y subilo a: raw.githubusercontent.com/corboplay-glitch/NexusWin/main/gamelist.json . Los archivos chicos (covers, fondos, logos, music, este json) van en el repo (raw/main). Los pesados (ROMs y APKs de emuladores) van en Releases. NO dejes comas de mas antes de } o ] (igual el launcher ahora las tolera). 'file' = nombre final que queda tras bajar; para PS1 con bin+cue poné el .cue. Si 'download' es .zip y 'file' NO es .zip, el launcher lo descomprime solo (respetando subcarpetas); si 'file' es .zip (arcade/snes) lo deja comprimido. PS2/PSP/etc tambien aceptan descarga directa .iso/.chd (sin zip). 'fondo'=imagen grande de atras, 'icono'=logo del boton (PNG cuadrado con transparencia). 'destDir'=carpeta destino de las descargas (para motores como Xash3D). En emuladores, 'bios' y 'files' bajan archivos (BIOS/config) a una ruta.",
 
   "music": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/inicio-menu-intro.mp3",
   "web": "nexusarcade.win",
@@ -31,7 +31,10 @@
     "redream":     { "name": "Redream (Dreamcast)", "package": "io.recompiled.redream",          "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/redream.apk" },
     "ppsspp":      { "name": "PPSSPP",              "package": "org.ppsspp.ppsspp",              "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/ppsspp.apk" },
     "gbaemu":      { "name": "GBA.emu",             "package": "com.explusalpha.GbaEmu",         "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/gbaemu.apk" },
-    "drastic":     { "name": "DraStic (NDS)",       "package": "com.dsemu.drastic",              "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/drastic.apk" }
+    "drastic":     { "name": "DraStic (NDS)",       "package": "com.dsemu.drastic",              "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/drastic.apk" },
+    "xash3d":      { "name": "Xash3D FWGS",         "package": "su.xash.engine",                 "type": "app",  "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/xash3d.apk" },
+    "openbor":     { "name": "OpenBOR",             "package": "org.openbor.engine",             "type": "app",  "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/openbor.apk" },
+    "scummvm":     { "name": "ScummVM",             "package": "org.scummvm.scummvm",            "type": "app",  "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/scummvm.apk" }
   },
 
   "systems": [
@@ -43,6 +46,16 @@
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/streaming.png",
       "app": "com.defiance.tv",
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/apps/defiance.apk",
+      "games": []
+    },
+    {
+      "_nota": "Categoría 'app' de YouTube. Package de SmartTube (TV sin ads); para YouTube normal usá com.google.android.youtube.",
+      "id": "youtube", "name": "YouTube", "icon": "▶️", "accent": "#ff0000",
+      "desc": "Mirá videos, música y streams. Versión para TV sin publicidad.",
+      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/youtube.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/youtube.png",
+      "app": "com.teamsmart.videomanager.tv",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/apps/smarttube.apk",
       "games": []
     },
     {
@@ -174,6 +187,22 @@
           "desc":"En arcade el .zip ES la ROM (no se descomprime, RetroArch lo lee comprimido).",
           "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/arcade/mslug3.jpg",
           "file":"mslug3.zip", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/arcade/mslug3.zip", "size":"30 MB" }
+      ]
+    },
+    {
+      "_nota": "PC Ports: motores como Xash3D (GoldSrc/Half-Life), OpenBOR y ScummVM. Cada 'juego' es un .zip con los datos del mod/juego que se descomprime en 'destDir' (la carpeta que lee el motor). Al dar Jugar, se abre el motor y ahí elegís el juego. IMPORTANTE: subí SOLO contenido libre / homebrew / que el usuario ya tenga; no subas juegos comerciales.",
+      "id": "ports", "name": "PC Ports", "icon": "🖥️", "accent": "#0ea5a4",
+      "desc": "Ports de PC y juegos con motores (Xash3D, OpenBOR, ScummVM). Bajás el contenido y lo abrís desde su motor.",
+      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/ports.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/ports.png",
+      "romDir": "PORTS", "destDir": "xash", "extensions": ["zip","pak","pk3"],
+      "emulators": ["xash3d","openbor","scummvm"],
+      "games": [
+        { "id":"port_ejemplo", "title":"Mod de ejemplo (Xash3D)", "year":2020, "rating":4.5, "genre":"Port",
+          "desc":"Ejemplo: el .zip trae la carpeta del mod (ej. valve/). Se descomprime en la carpeta de Xash3D. Al dar Jugar abrís Xash3D y elegís el mod. Subí solo contenido libre / homebrew.",
+          "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/ejemplo.jpg",
+          "file":"mod_ejemplo", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/ports/mod_ejemplo.zip", "size":"120 MB",
+          "emulators":["xash3d"] }
       ]
     }
   ]
