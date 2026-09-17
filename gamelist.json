@@ -15,7 +15,7 @@
   },
 
   "emulators": {
-    "retroarch":   { "name": "RetroArch (32-bit)", "package": "com.retroarch",                  "type": "retroarch", "core": "/data/data/com.retroarch/cores/pcsx_rearmed_libretro.so",          "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch32.apk" },
+    "retroarch":   { "name": "RetroArch (32-bit)", "package": "com.retroarch",                  "type": "retroarch", "core": "/data/data/com.retroarch/cores/pcsx_rearmed_libretro.so",          "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/RetroArch_ra32.apk" },
     "retroarch64": { "name": "RetroArch (64-bit)", "package": "com.retroarch.aarch64",          "type": "retroarch", "core": "/data/data/com.retroarch.aarch64/cores/pcsx_rearmed_libretro.so", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch64.apk" },
     "epsxe":       { "name": "ePSXe",              "package": "com.epsxe.ePSXe",                "type": "epsxe", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/epsxe.apk",
                      "bios": [ { "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/bios/SCPH1001.BIN", "to": "epsxe/bios/SCPH1001.BIN" } ] },
