@@ -1,5 +1,5 @@
 {
-  "_comentario": "gamelist de NexusArcade. Editalo y subilo a: raw.githubusercontent.com/corboplay-glitch/NexusWin/main/gamelist.json . Los archivos chicos (covers, fondos, music, este json) van en el repo (raw/main). Los pesados (ROMs y APKs de emuladores) van en Releases. NO dejes comas de mas antes de } o ] (igual el launcher ahora las tolera). 'file' = nombre final que queda tras bajar; para PS1 con bin+cue poné el .cue. Si 'download' es .zip y 'file' NO es .zip, el launcher lo descomprime solo; si 'file' es .zip (arcade/snes) lo deja comprimido. PS2/PSP/etc tambien aceptan descarga directa .iso/.chd (sin zip).",
+  "_comentario": "gamelist de NexusArcade. Editalo y subilo a: raw.githubusercontent.com/corboplay-glitch/NexusWin/main/gamelist.json . Los archivos chicos (covers, fondos, logos, music, este json) van en el repo (raw/main). Los pesados (ROMs y APKs de emuladores) van en Releases. NO dejes comas de mas antes de } o ] (igual el launcher ahora las tolera). 'file' = nombre final que queda tras bajar; para PS1 con bin+cue poné el .cue. Si 'download' es .zip y 'file' NO es .zip, el launcher lo descomprime solo; si 'file' es .zip (arcade/snes) lo deja comprimido. PS2/PSP/etc tambien aceptan descarga directa .iso/.chd (sin zip). 'fondo'=imagen grande de atras, 'icono'=logo del boton (PNG cuadrado con transparencia).",
 
   "music": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/inicio-menu-intro.mp3",
   "web": "nexusarcade.win",
@@ -49,6 +49,7 @@
       "id": "ps1", "name": "PlayStation", "icon": "🎮", "accent": "#2f6fed",
       "desc": "Disfrutá los mejores títulos de PlayStation.",
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/ps1.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/ps1.png",
       "romDir": "PS1", "extensions": ["cue","bin","chd","pbp","iso","img"],
       "emulators": ["duckstation","epsxe","retroarch","retroarch64"],
       "games": [
@@ -67,6 +68,7 @@
       "id": "psp", "name": "PSP", "icon": "🎮", "accent": "#111827",
       "desc": "PlayStation Portable en tu tele.",
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/psp.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/psp.png",
       "romDir": "PSP", "extensions": ["iso","cso"],
       "emulators": ["ppsspp"],
       "games": [
@@ -80,6 +82,7 @@
       "id": "genesis", "name": "Sega Mega Drive", "icon": "🕹️", "accent": "#1f6feb",
       "desc": "Los clásicos de Sega Mega Drive / Genesis.",
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/genesis.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/genesis.png",
       "romDir": "GENESIS", "extensions": ["md","bin","gen","smd","zip"],
       "emulators": ["mdemu","retroarch","retroarch64"],
       "games": [
@@ -93,6 +96,7 @@
       "id": "dreamcast", "name": "Sega Dreamcast", "icon": "🌀", "accent": "#e05a2b",
       "desc": "La última consola de Sega, adelantada a su época.",
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/dreamcast.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/dreamcast.png",
       "romDir": "DC", "extensions": ["gdi","chd","cdi"],
       "emulators": ["redream","retroarch","retroarch64"],
       "games": [
@@ -106,6 +110,7 @@
       "id": "snes", "name": "Super Nintendo", "icon": "🎛️", "accent": "#8b5cf6",
       "desc": "Los clásicos de Super Nintendo que marcaron una época.",
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/snes.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/snes.png",
       "romDir": "SNES", "extensions": ["smc","sfc","zip"],
       "emulators": ["snes9x","retroarch","retroarch64"],
       "games": [
@@ -119,6 +124,7 @@
       "id": "gba", "name": "Game Boy Advance", "icon": "🎯", "accent": "#5b3fb3",
       "desc": "La portátil de Nintendo con sus grandes hits.",
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/gba.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/gba.png",
       "romDir": "GBA", "extensions": ["gba","zip"],
       "emulators": ["gbaemu","retroarch","retroarch64"],
       "games": [
@@ -132,6 +138,7 @@
       "id": "nds", "name": "Nintendo DS", "icon": "🎮", "accent": "#c0392b",
       "desc": "Doble pantalla, jugá con el control como touch.",
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/nds.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/nds.png",
       "romDir": "NDS", "extensions": ["nds","zip"],
       "emulators": ["drastic"],
       "games": [
@@ -145,6 +152,7 @@
       "id": "n64", "name": "Nintendo 64", "icon": "🎯", "accent": "#e0342f",
       "desc": "Revive las aventuras en 3D de la Nintendo 64.",
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/n64.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/n64.png",
       "romDir": "N64", "extensions": ["z64","n64","v64","zip"],
       "emulators": ["mupen64","retroarch","retroarch64"],
       "games": [
@@ -158,6 +166,7 @@
       "id": "arcade", "name": "Arcade", "icon": "👾", "accent": "#f59e0b",
       "desc": "La adrenalina de los fichines, directo a tu tele.",
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/arcade.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/arcade.png",
       "romDir": "ARCADE", "extensions": ["zip"],
       "emulators": ["fbneo","retroarch","retroarch64"],
       "games": [
