@@ -31,32 +31,14 @@
       "emulators": ["duckstation","epsxe","retroarch","retroarch64"],
       "games": [
         { "id":"mk4", "title":"Mortal Kombat 4", "year":1997, "rating":4.4, "genre":"Lucha",
-          "desc":"Ejemplo con descarga directa de .bin (sin zip).",
-          "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps1/mk4.jpg",
+          "desc":"Ejemplo con descarga directa de .bin (sin zip). 'cover' = carátula vertical, 'shot' = imagen horizontal del panel grande.",
+          "cover":"https://preview.redd.it/anyone-else-find-mortal-kombat-4-as-one-of-the-weakest-mk-v0-6dozutaxfwgf1.jpg?width=640&crop=smart&auto=webp&s=2c093a9940ae97de6d83169febc7831ebacd0398",
+          "shot":"https://images.gog-statics.com/9e140b92bb1c2ea48f1b0a9df83dde438d3947329d503f35104eb347b383c119_product_card_v2_mobile_slider_639.jpg",
           "file":"Mortal.Kombat.4.USA.bin", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/Mortal.Kombat.4.USA.bin", "size":"680 MB" },
         { "id":"crash", "title":"Crash Bandicoot", "year":1996, "rating":4.6, "genre":"Plataformas",
           "desc":"Ejemplo con .bin + .cue dentro de un .zip: el launcher lo descomprime y usa el .cue.",
           "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps1/crash.jpg",
           "file":"Crash Bandicoot.cue", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/crash.zip", "size":"500 MB" }
-      ]
-    },
-    {
-      "id": "ps2", "name": "PlayStation 2", "icon": "🕹️", "accent": "#1a4fd0",
-      "desc": "Disfrutá los mejores títulos de PlayStation 2. Bajás, jugás y si no lo querés más lo borrás.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/ps2.jpg",
-      "romDir": "PS2", "extensions": ["iso","chd","bin","cso","zso","gz"],
-      "emulators": ["aethersx2","nethersx2","damonps2","ps2app"],
-      "games": [
-        { "id":"sotc", "title":"Shadow of the Colossus", "year":2005, "rating":4.9, "genre":"Aventura",
-          "desc":"Descarga directa .iso (sin zip): se baja y queda listo.",
-          "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/sotc.jpg",
-          "file":"SOTC.iso", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/SOTC.iso", "size":"1.4 GB",
-          "emulators":["aethersx2","nethersx2","ps2app"] },
-        { "id":"gow2", "title":"God of War II", "year":2007, "rating":4.8, "genre":"Acción",
-          "desc":"Ejemplo comprimido .chd (formato más chico, AetherSX2 lo lee).",
-          "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/gow2.jpg",
-          "file":"GodOfWar2.chd", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/GodOfWar2.chd", "size":"3.2 GB",
-          "emulators":["aethersx2","nethersx2","damonps2"] }
       ]
     },
     {
