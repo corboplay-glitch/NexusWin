@@ -6,7 +6,8 @@
   "emulators": {
     "retroarch":   { "name": "RetroArch (32-bit)", "package": "com.retroarch",                  "type": "retroarch", "core": "/data/data/com.retroarch/cores/pcsx_rearmed_libretro.so",          "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch32.apk" },
     "retroarch64": { "name": "RetroArch (64-bit)", "package": "com.retroarch.aarch64",          "type": "retroarch", "core": "/data/data/com.retroarch.aarch64/cores/pcsx_rearmed_libretro.so", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch64.apk" },
-    "epsxe":       { "name": "ePSXe",              "package": "com.epsxe.ePSXe",                "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/epsxe.apk" },
+    "epsxe":       { "name": "ePSXe",              "package": "com.epsxe.ePSXe",                "type": "epsxe", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/epsxe.apk",
+                     "bios": [ { "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/bios/scph1001.bin", "to": "epsxe/bios/scph1001.bin" } ] },
     "duckstation": { "name": "DuckStation",         "package": "com.github.stenzek.duckstation", "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/duckstation.apk" },
     "aethersx2":   { "name": "AetherSX2",           "package": "xyz.aethersx2.android",          "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/aethersx2.apk" },
     "nethersx2":   { "name": "NetherSX2",           "package": "xyz.aethersx2.android",          "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/nethersx2.apk" },
