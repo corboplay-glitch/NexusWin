@@ -284,8 +284,8 @@
       "icon": "🕹️",
       "accent": "#1f6feb",
       "desc": "Los clásicos de Sega Mega Drive / Genesis.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/genesis.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/genesis.png",
+      "fondo": "https://es.gamewallpapers.com/download.php?img=wallpaper_sega_mega_drive_classics_01_1920x1080.jpg",
+      "icono": "https://media.sketchfab.com/models/f075faeafcc346a59370ccdb0f44a39f/thumbnails/8923e5ca1b494524b9064135a20831da/68e32b75b4f441efbd28e9b112f1ed17.jpeg",
       "romDir": "GENESIS",
       "destDir": "Download/NexusArcade/GENESIS",
       "extensions": [
