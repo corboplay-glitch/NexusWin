@@ -51,8 +51,8 @@
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/nethersx2.apk",
       "bios": [
         {
-          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/bios/SCPH30004R.bin",
-          "to": "PS2/bios/SCPH30004R.bin"
+          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/bios/PS230004R.bin",
+          "to": "PS2/bios/PS230004R.bin"
         }
       ]
     },
