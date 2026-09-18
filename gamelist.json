@@ -158,6 +158,12 @@
       "package": "org.scummvm.scummvm",
       "type": "app",
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/scummvm.apk"
+    },
+    "play": {
+      "name": "Play! (PS2)",
+      "package": "com.virtualapplications.play",
+      "type": "view",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/play.apk"
     }
   },
   "systems": [
@@ -203,34 +209,7 @@
         "retroarch",
         "retroarch64"
       ],
-      "games": [
-        {
-          "id": "mk4",
-          "title": "Mortal Kombat 4",
-          "year": 1997,
-          "rating": 4.4,
-          "genre": "Lucha",
-          "desc": "Ejemplo con descarga directa de .bin (sin zip). 'cover' = carátula vertical, 'shot' = imagen horizontal del panel grande.",
-          "cover": "https://preview.redd.it/anyone-else-find-mortal-kombat-4-as-one-of-the-weakest-mk-v0-6dozutaxfwgf1.jpg?width=640&crop=smart&auto=webp&s=2c093a9940ae97de6d83169febc7831ebacd0398",
-          "shot": "https://images.gog-statics.com/9e140b92bb1c2ea48f1b0a9df83dde438d3947329d503f35104eb347b383c119_product_card_v2_mobile_slider_639.jpg",
-          "file": "Mortal.Kombat.4.USA.bin",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/Mortal.Kombat.4.bin",
-          "size": "680 MB"
-        },
-        {
-          "id": "crash",
-          "title": "Crash Bandicoot",
-          "year": 1996,
-          "rating": 4.6,
-          "genre": "Plataformas",
-          "desc": "Ejemplo con .bin + .cue dentro de un .zip: el launcher lo descomprime y usa el .cue.",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps1/crash.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps1/crash-2.jpg",
-          "file": "Crash Bandicoot.cue",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/crash.zip",
-          "size": "500 MB"
-        }
-      ]
+      "gamesUrl": "games/ps1.json"
     },
     {
       "_nota": "PS2 necesita la BIOS de PlayStation 2 cargada una sola vez dentro del emulador (NetherSX2/AetherSX2). En TV box flojas puede ir lento. Subí SOLO juegos que ya tengas.",
@@ -250,58 +229,11 @@
         "bin"
       ],
       "emulators": [
-        "nethersx2"
+        "nethersx2",
+        "play",
+        "damonps2"
       ],
-      "games": [
-        {
-          "id": "ps2_ejemplo",
-          "title": "Juego PS2 (ejemplo)",
-          "year": 2005,
-          "rating": 4.5,
-          "genre": "Varios",
-          "desc": "Ejemplo con .iso directo (sin zip). Para PS2 recomiendo NetherSX2. Subí SOLO juegos que ya tengas.",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo-2.jpg",
-          "file": "JuegoPS2.iso",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.iso",
-          "size": "3 GB",
-          "emulators": [
-            "nethersx2"
-          ]
-        },
-        {
-          "id": "ps2_chd",
-          "title": "Juego PS2 (.chd, ejemplo)",
-          "year": 2004,
-          "rating": 4.6,
-          "genre": "Varios",
-          "desc": "Ejemplo en .chd: es un .iso comprimido que pesa bastante menos y NetherSX2 lo abre igual. Va suelto (sin zip). Subí SOLO juegos que ya tengas.",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_chd.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_chd-2.jpg",
-          "file": "JuegoPS2.chd",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.chd",
-          "size": "1.4 GB",
-          "emulators": [
-            "nethersx2"
-          ]
-        },
-        {
-          "id": "ps2_zip",
-          "title": "Juego PS2 (.zip, ejemplo)",
-          "year": 2003,
-          "rating": 4.5,
-          "genre": "Varios",
-          "desc": "Ejemplo en ZIP: adentro va el .iso (o .chd). El launcher lo descomprime solo y NetherSX2 abre el archivo. 'file' = el nombre del archivo final que queda tras descomprimir.",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_zip.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_zip-2.jpg",
-          "file": "JuegoPS2.iso",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.zip",
-          "size": "2.5 GB",
-          "emulators": [
-            "nethersx2"
-          ]
-        }
-      ]
+      "gamesUrl": "games/ps2.json"
     },
     {
       "_nota": "PC Ports: motores como Xash3D (GoldSrc/Half-Life), OpenBOR y ScummVM. Cada 'juego' es un .zip con los datos del mod/juego que se descomprime en 'destDir' (la carpeta que lee el motor). Al dar Jugar, se abre el motor y ahí elegís el juego. IMPORTANTE: subí SOLO contenido libre / homebrew / que el usuario ya tenga; no subas juegos comerciales.",
@@ -324,58 +256,7 @@
         "openbor",
         "scummvm"
       ],
-      "games": [
-        {
-          "id": "port_xash",
-          "title": "Mod de Half-Life (Xash3D)",
-          "year": 2020,
-          "rating": 4.5,
-          "genre": "Port",
-          "desc": "El .zip trae la carpeta del mod (ej. 'valve/' o el nombre del mod). Se descomprime en la carpeta de Xash3D. Al dar Jugar abrís Xash3D y elegís el mod. Subí SOLO contenido libre / homebrew / que el usuario ya tenga.",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/xash.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/xash-2.jpg",
-          "file": "mi_mod",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/mi_mod.zip",
-          "size": "150 MB",
-          "emulators": [
-            "xash3d"
-          ]
-        },
-        {
-          "id": "port_openbor",
-          "title": "Juego OpenBOR (ejemplo)",
-          "year": 2019,
-          "rating": 4.4,
-          "genre": "Beat'em up",
-          "desc": "OpenBOR usa archivos .pak. Este baja el .pak a la carpeta de OpenBOR. Abrís OpenBOR y lo elegís de la lista. Solo contenido libre / homebrew.",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/openbor.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/openbor-2.jpg",
-          "file": "MiJuego.pak",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/MiJuego.pak",
-          "size": "80 MB",
-          "destDir": "OpenBOR/Paks",
-          "emulators": [
-            "openbor"
-          ]
-        },
-        {
-          "id": "port_scummvm",
-          "title": "Aventura clásica (ScummVM)",
-          "year": 1995,
-          "rating": 4.7,
-          "genre": "Aventura",
-          "desc": "El .zip trae la carpeta del juego (con sus datos). Se descomprime en la carpeta de ScummVM; abrís ScummVM, 'Agregar juego' y elegís esa carpeta. Solo juegos freeware o que el usuario tenga.",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/scummvm.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/scummvm-2.jpg",
-          "file": "MiAventura",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/MiAventura.zip",
-          "size": "60 MB",
-          "destDir": "ScummVM/juegos",
-          "emulators": [
-            "scummvm"
-          ]
-        }
-      ]
+      "gamesUrl": "games/ports.json"
     },
     {
       "id": "psp",
@@ -395,37 +276,7 @@
         "ppsspp",
         "ppsspplegacy"
       ],
-      "games": [
-        {
-          "id": "gow_psp",
-          "title": "God of War: Chains",
-          "year": 2008,
-          "rating": 4.7,
-          "genre": "Acción",
-          "desc": "Ejemplo PSP con PPSSPP (descarga directa .iso).",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/gowc.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/gowc-2.jpg",
-          "file": "GoWChains.iso",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/GoWChains.iso",
-          "size": "900 MB"
-        },
-        {
-          "id": "psp_pbp_ejemplo",
-          "title": "Juego PSP en carpeta (ejemplo EBOOT)",
-          "year": 2010,
-          "rating": 4.5,
-          "genre": "Varios",
-          "desc": "Ejemplo de juego PSP que viene como CARPETA (EBOOT.PBP + data/). Va en ZIP: el launcher lo descomprime respetando subcarpetas y PPSSPP abre el EBOOT.PBP. Subí SOLO homebrew o juegos que ya tengas.",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/ejemplo.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/ejemplo-2.jpg",
-          "file": "MiJuegoPSP/EBOOT.PBP",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/MiJuegoPSP.zip",
-          "size": "300 MB",
-          "emulators": [
-            "ppsspp"
-          ]
-        }
-      ]
+      "gamesUrl": "games/psp.json"
     },
     {
       "id": "genesis",
@@ -450,21 +301,7 @@
         "retroarch",
         "retroarch64"
       ],
-      "games": [
-        {
-          "id": "sonic2",
-          "title": "Sonic the Hedgehog 2",
-          "year": 1992,
-          "rating": 4.8,
-          "genre": "Plataformas",
-          "desc": "Sonic y Tails a toda velocidad.",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/genesis/sonic2.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/genesis/sonic2-2.jpg",
-          "file": "Sonic.The.Hedgehog.ESP.md",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/genesis/Sonic.The.Hedgehog.ESP.md",
-          "size": "1 MB"
-        }
-      ]
+      "gamesUrl": "games/genesis.json"
     },
     {
       "id": "dreamcast",
@@ -487,21 +324,7 @@
         "retroarch",
         "retroarch64"
       ],
-      "games": [
-        {
-          "id": "crazytaxi",
-          "title": "Crazy Taxi",
-          "year": 1999,
-          "rating": 4.6,
-          "genre": "Carreras",
-          "desc": "Ejemplo Dreamcast con Redream (.chd directo).",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/dreamcast/crazytaxi.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/dreamcast/crazytaxi-2.jpg",
-          "file": "CrazyTaxi.chd",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/dreamcast/CrazyTaxi.chd",
-          "size": "1.2 GB"
-        }
-      ]
+      "gamesUrl": "games/dreamcast.json"
     },
     {
       "id": "snes",
@@ -524,21 +347,7 @@
         "retroarch",
         "retroarch64"
       ],
-      "games": [
-        {
-          "id": "smw",
-          "title": "Super Mario World",
-          "year": 1990,
-          "rating": 4.9,
-          "genre": "Plataformas",
-          "desc": "Mario y Yoshi en el clásico definitivo de plataformas.",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/snes/smw.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/snes/smw-2.jpg",
-          "file": "SuperMarioWorld.sfc",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/snes/SuperMarioWorld.sfc",
-          "size": "512 KB"
-        }
-      ]
+      "gamesUrl": "games/snes.json"
     },
     {
       "id": "gba",
@@ -560,21 +369,7 @@
         "retroarch",
         "retroarch64"
       ],
-      "games": [
-        {
-          "id": "metroidfusion",
-          "title": "Metroid Fusion",
-          "year": 2002,
-          "rating": 4.7,
-          "genre": "Aventura",
-          "desc": "Ejemplo GBA.",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/gba/metroidfusion.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/gba/metroidfusion-2.jpg",
-          "file": "MetroidFusion.gba",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/gba/MetroidFusion.gba",
-          "size": "8 MB"
-        }
-      ]
+      "gamesUrl": "games/gba.json"
     },
     {
       "id": "nds",
@@ -593,21 +388,7 @@
       "emulators": [
         "drastic"
       ],
-      "games": [
-        {
-          "id": "nsmb",
-          "title": "New Super Mario Bros",
-          "year": 2006,
-          "rating": 4.7,
-          "genre": "Plataformas",
-          "desc": "Ejemplo NDS con DraStic.",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/nds/nsmb.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/nds/nsmb-2.jpg",
-          "file": "NSMB.nds",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/nds/NSMB.nds",
-          "size": "64 MB"
-        }
-      ]
+      "gamesUrl": "games/nds.json"
     },
     {
       "id": "n64",
@@ -631,21 +412,7 @@
         "retroarch",
         "retroarch64"
       ],
-      "games": [
-        {
-          "id": "sm64",
-          "title": "Super Mario 64",
-          "year": 1996,
-          "rating": 4.9,
-          "genre": "Plataformas",
-          "desc": "El salto a las 3D que cambió los videojuegos para siempre.",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/n64/sm64.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/n64/sm64-2.jpg",
-          "file": "SuperMario64.z64",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/n64/SuperMario64.z64",
-          "size": "8 MB"
-        }
-      ]
+      "gamesUrl": "games/n64.json"
     },
     {
       "id": "arcade",
@@ -666,21 +433,7 @@
         "retroarch",
         "retroarch64"
       ],
-      "games": [
-        {
-          "id": "mslug3",
-          "title": "Metal Slug 3",
-          "year": 2000,
-          "rating": 4.8,
-          "genre": "Run & Gun",
-          "desc": "En arcade el .zip ES la ROM (no se descomprime, RetroArch lo lee comprimido).",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/arcade/mslug3.jpg",
-          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/arcade/mslug3-2.jpg",
-          "file": "mslug3.zip",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/arcade/mslug3.zip",
-          "size": "30 MB"
-        }
-      ]
+      "gamesUrl": "games/arcade.json"
     }
   ]
 }
