@@ -196,6 +196,7 @@
         "iso",
         "img"
       ],
+      "core": "pcsx_rearmed_libretro.so",
       "emulators": [
         "duckstation",
         "epsxe"
@@ -441,6 +442,7 @@
         "smd",
         "zip"
       ],
+      "core": "genesis_plus_gx_libretro.so",
       "emulators": [
         "mdemu",
         "retroarch",
@@ -477,6 +479,7 @@
         "chd",
         "cdi"
       ],
+      "core": "flycast_libretro.so",
       "emulators": [
         "redream",
         "retroarch",
@@ -513,6 +516,7 @@
         "sfc",
         "zip"
       ],
+      "core": "snes9x_libretro.so",
       "emulators": [
         "snes9x",
         "retroarch",
@@ -548,6 +552,7 @@
         "gba",
         "zip"
       ],
+      "core": "mgba_libretro.so",
       "emulators": [
         "gbaemu",
         "retroarch",
@@ -618,6 +623,7 @@
         "v64",
         "zip"
       ],
+      "core": "mupen64plus_next_libretro.so",
       "emulators": [
         "mupen64",
         "retroarch",
@@ -652,6 +658,7 @@
       "extensions": [
         "zip"
       ],
+      "core": "fbneo_libretro.so",
       "emulators": [
         "fbneo",
         "retroarch",
