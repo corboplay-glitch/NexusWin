@@ -186,9 +186,7 @@
       ],
       "emulators": [
         "duckstation",
-        "epsxe",
-        "retroarch",
-        "retroarch64"
+        "epsxe"
       ],
       "games": [
         {
@@ -215,6 +213,66 @@
           "file": "Crash Bandicoot.cue",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/crash.zip",
           "size": "500 MB"
+        }
+      ]
+    },
+    {
+      "_nota": "PS2 necesita la BIOS de PlayStation 2 cargada una sola vez dentro del emulador (NetherSX2/AetherSX2). En TV box flojas puede ir lento. Subí SOLO juegos que ya tengas.",
+      "id": "ps2",
+      "name": "PlayStation 2",
+      "icon": "🎮",
+      "accent": "#1f4fb0",
+      "desc": "Títulos de PlayStation 2. Recomiendo NetherSX2 (fork de AetherSX2). Necesita la BIOS de PS2 configurada una vez.",
+      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/ps2.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/ps2.png",
+      "romDir": "PS2",
+      "extensions": [
+        "iso",
+        "chd",
+        "cso",
+        "bin"
+      ],
+      "emulators": [
+        "nethersx2",
+        "aethersx2",
+        "damonps2"
+      ],
+      "games": [
+        {
+          "id": "ps2_ejemplo",
+          "title": "Juego PS2 (ejemplo)",
+          "year": 2005,
+          "rating": 4.5,
+          "genre": "Varios",
+          "desc": "Ejemplo con .iso directo (sin zip). Para PS2 recomiendo NetherSX2. Subí SOLO juegos que ya tengas.",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo.jpg",
+          "file": "JuegoPS2.iso",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.iso",
+          "size": "3 GB"
+        },
+        {
+          "id": "ps2_chd",
+          "title": "Juego PS2 (.chd, ejemplo)",
+          "year": 2004,
+          "rating": 4.6,
+          "genre": "Varios",
+          "desc": "Ejemplo en .chd: es un .iso comprimido que pesa bastante menos y NetherSX2 lo abre igual. Va suelto (sin zip). Subí SOLO juegos que ya tengas.",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_chd.jpg",
+          "file": "JuegoPS2.chd",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.chd",
+          "size": "1.4 GB"
+        },
+        {
+          "id": "ps2_zip",
+          "title": "Juego PS2 (.zip, ejemplo)",
+          "year": 2003,
+          "rating": 4.5,
+          "genre": "Varios",
+          "desc": "Ejemplo en ZIP: adentro va el .iso (o .chd). El launcher lo descomprime solo y NetherSX2 abre el archivo. 'file' = el nombre del archivo final que queda tras descomprimir.",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_zip.jpg",
+          "file": "JuegoPS2.iso",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.zip",
+          "size": "2.5 GB"
         }
       ]
     },
@@ -285,6 +343,21 @@
           "file": "GoWChains.iso",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/GoWChains.iso",
           "size": "900 MB"
+        },
+        {
+          "id": "psp_pbp_ejemplo",
+          "title": "Juego PSP en carpeta (ejemplo EBOOT)",
+          "year": 2010,
+          "rating": 4.5,
+          "genre": "Varios",
+          "desc": "Ejemplo de juego PSP que viene como CARPETA (EBOOT.PBP + data/). Va en ZIP: el launcher lo descomprime respetando subcarpetas y PPSSPP abre el EBOOT.PBP. Subí SOLO homebrew o juegos que ya tengas.",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/ejemplo.jpg",
+          "file": "MiJuegoPSP/EBOOT.PBP",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/MiJuegoPSP.zip",
+          "size": "300 MB",
+          "emulators": [
+            "ppsspp"
+          ]
         }
       ]
     },
