@@ -187,6 +187,7 @@
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/ps1.jpg",
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/ps1.png",
       "romDir": "PS1",
+      "destDir": "Download/NexusArcade/PS1",
       "extensions": [
         "cue",
         "bin",
@@ -221,6 +222,7 @@
           "genre": "Plataformas",
           "desc": "Ejemplo con .bin + .cue dentro de un .zip: el launcher lo descomprime y usa el .cue.",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps1/crash.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps1/crash-2.jpg",
           "file": "Crash Bandicoot.cue",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/crash.zip",
           "size": "500 MB"
@@ -237,6 +239,7 @@
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/ps2.jpg",
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/ps2.png",
       "romDir": "PS2",
+      "destDir": "Download/NexusArcade/PS2",
       "extensions": [
         "iso",
         "chd",
@@ -255,6 +258,7 @@
           "genre": "Varios",
           "desc": "Ejemplo con .iso directo (sin zip). Para PS2 recomiendo NetherSX2. Subí SOLO juegos que ya tengas.",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo-2.jpg",
           "file": "JuegoPS2.iso",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.iso",
           "size": "3 GB",
@@ -270,6 +274,7 @@
           "genre": "Varios",
           "desc": "Ejemplo en .chd: es un .iso comprimido que pesa bastante menos y NetherSX2 lo abre igual. Va suelto (sin zip). Subí SOLO juegos que ya tengas.",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_chd.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_chd-2.jpg",
           "file": "JuegoPS2.chd",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.chd",
           "size": "1.4 GB",
@@ -285,6 +290,7 @@
           "genre": "Varios",
           "desc": "Ejemplo en ZIP: adentro va el .iso (o .chd). El launcher lo descomprime solo y NetherSX2 abre el archivo. 'file' = el nombre del archivo final que queda tras descomprimir.",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_zip.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_zip-2.jpg",
           "file": "JuegoPS2.iso",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.zip",
           "size": "2.5 GB",
@@ -324,6 +330,7 @@
           "genre": "Port",
           "desc": "El .zip trae la carpeta del mod (ej. 'valve/' o el nombre del mod). Se descomprime en la carpeta de Xash3D. Al dar Jugar abrís Xash3D y elegís el mod. Subí SOLO contenido libre / homebrew / que el usuario ya tenga.",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/xash.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/xash-2.jpg",
           "file": "mi_mod",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/mi_mod.zip",
           "size": "150 MB",
@@ -339,6 +346,7 @@
           "genre": "Beat'em up",
           "desc": "OpenBOR usa archivos .pak. Este baja el .pak a la carpeta de OpenBOR. Abrís OpenBOR y lo elegís de la lista. Solo contenido libre / homebrew.",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/openbor.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/openbor-2.jpg",
           "file": "MiJuego.pak",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/MiJuego.pak",
           "size": "80 MB",
@@ -355,6 +363,7 @@
           "genre": "Aventura",
           "desc": "El .zip trae la carpeta del juego (con sus datos). Se descomprime en la carpeta de ScummVM; abrís ScummVM, 'Agregar juego' y elegís esa carpeta. Solo juegos freeware o que el usuario tenga.",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/scummvm.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/scummvm-2.jpg",
           "file": "MiAventura",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/MiAventura.zip",
           "size": "60 MB",
@@ -374,6 +383,7 @@
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/psp.jpg",
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/psp.png",
       "romDir": "PSP",
+      "destDir": "Download/NexusArcade/PSP",
       "extensions": [
         "iso",
         "cso"
@@ -391,6 +401,7 @@
           "genre": "Acción",
           "desc": "Ejemplo PSP con PPSSPP (descarga directa .iso).",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/gowc.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/gowc-2.jpg",
           "file": "GoWChains.iso",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/GoWChains.iso",
           "size": "900 MB"
@@ -403,6 +414,7 @@
           "genre": "Varios",
           "desc": "Ejemplo de juego PSP que viene como CARPETA (EBOOT.PBP + data/). Va en ZIP: el launcher lo descomprime respetando subcarpetas y PPSSPP abre el EBOOT.PBP. Subí SOLO homebrew o juegos que ya tengas.",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/ejemplo.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/ejemplo-2.jpg",
           "file": "MiJuegoPSP/EBOOT.PBP",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/MiJuegoPSP.zip",
           "size": "300 MB",
@@ -421,6 +433,7 @@
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/genesis.jpg",
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/genesis.png",
       "romDir": "GENESIS",
+      "destDir": "Download/NexusArcade/GENESIS",
       "extensions": [
         "md",
         "bin",
@@ -458,6 +471,7 @@
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/dreamcast.jpg",
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/dreamcast.png",
       "romDir": "DC",
+      "destDir": "Download/NexusArcade/DC",
       "extensions": [
         "gdi",
         "chd",
@@ -477,6 +491,7 @@
           "genre": "Carreras",
           "desc": "Ejemplo Dreamcast con Redream (.chd directo).",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/dreamcast/crazytaxi.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/dreamcast/crazytaxi-2.jpg",
           "file": "CrazyTaxi.chd",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/dreamcast/CrazyTaxi.chd",
           "size": "1.2 GB"
@@ -492,6 +507,7 @@
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/snes.jpg",
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/snes.png",
       "romDir": "SNES",
+      "destDir": "Download/NexusArcade/SNES",
       "extensions": [
         "smc",
         "sfc",
@@ -511,6 +527,7 @@
           "genre": "Plataformas",
           "desc": "Mario y Yoshi en el clásico definitivo de plataformas.",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/snes/smw.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/snes/smw-2.jpg",
           "file": "SuperMarioWorld.sfc",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/snes/SuperMarioWorld.sfc",
           "size": "512 KB"
@@ -526,6 +543,7 @@
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/gba.jpg",
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/gba.png",
       "romDir": "GBA",
+      "destDir": "Download/NexusArcade/GBA",
       "extensions": [
         "gba",
         "zip"
@@ -544,6 +562,7 @@
           "genre": "Aventura",
           "desc": "Ejemplo GBA.",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/gba/metroidfusion.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/gba/metroidfusion-2.jpg",
           "file": "MetroidFusion.gba",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/gba/MetroidFusion.gba",
           "size": "8 MB"
@@ -559,6 +578,7 @@
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/nds.jpg",
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/nds.png",
       "romDir": "NDS",
+      "destDir": "Download/NexusArcade/NDS",
       "extensions": [
         "nds",
         "zip"
@@ -575,6 +595,7 @@
           "genre": "Plataformas",
           "desc": "Ejemplo NDS con DraStic.",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/nds/nsmb.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/nds/nsmb-2.jpg",
           "file": "NSMB.nds",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/nds/NSMB.nds",
           "size": "64 MB"
@@ -590,6 +611,7 @@
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/n64.jpg",
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/n64.png",
       "romDir": "N64",
+      "destDir": "Download/NexusArcade/N64",
       "extensions": [
         "z64",
         "n64",
@@ -610,6 +632,7 @@
           "genre": "Plataformas",
           "desc": "El salto a las 3D que cambió los videojuegos para siempre.",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/n64/sm64.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/n64/sm64-2.jpg",
           "file": "SuperMario64.z64",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/n64/SuperMario64.z64",
           "size": "8 MB"
@@ -625,6 +648,7 @@
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/arcade.jpg",
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/arcade.png",
       "romDir": "ARCADE",
+      "destDir": "Download/NexusArcade/ARCADE",
       "extensions": [
         "zip"
       ],
@@ -642,6 +666,7 @@
           "genre": "Run & Gun",
           "desc": "En arcade el .zip ES la ROM (no se descomprime, RetroArch lo lee comprimido).",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/arcade/mslug3.jpg",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/arcade/mslug3-2.jpg",
           "file": "mslug3.zip",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/arcade/mslug3.zip",
           "size": "30 MB"
