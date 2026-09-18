@@ -174,8 +174,8 @@
       "icon": "▶️",
       "accent": "#ff0000",
       "desc": "Mirá videos, música y streams. Versión para TV sin publicidad.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/youtube.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/youtube.png",
+      "fondo": "https://s.rfi.fr/media/display/4d8381dc-eafe-11ef-a22c-005056bfb2b6/w:1280/p:4x3/GettyImages-2196887291.jpg",
+      "icono": "https://cdn.pixabay.com/photo/2022/01/21/00/38/youtube-icon-6953527_1280.jpg",
       "app": [
         "com.teamsmart.videomanager.tv",
         "com.google.android.youtube.tv",
