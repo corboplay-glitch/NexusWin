@@ -1,46 +1,148 @@
 {
   "_comentario": "gamelist de NexusArcade. Editalo y subilo a: raw.githubusercontent.com/corboplay-glitch/NexusWin/main/gamelist.json . Los archivos chicos (covers, fondos, logos, music, este json) van en el repo (raw/main). Los pesados (ROMs y APKs de emuladores) van en Releases. NO dejes comas de mas antes de } o ] (igual el launcher ahora las tolera). 'file' = nombre final que queda tras bajar; para PS1 con bin+cue poné el .cue. Si 'download' es .zip y 'file' NO es .zip, el launcher lo descomprime solo (respetando subcarpetas); si 'file' es .zip (arcade/snes) lo deja comprimido. PS2/PSP/etc tambien aceptan descarga directa .iso/.chd (sin zip). 'fondo'=imagen grande de atras, 'icono'=logo del boton (PNG cuadrado con transparencia). 'destDir'=carpeta destino de las descargas (para motores como Xash3D). En emuladores, 'bios' y 'files' bajan archivos (BIOS/config) a una ruta.",
-
   "music": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/inicio-menu-intro.mp3",
   "web": "nexusarcade.win",
-
   "_sfx_nota": "Efectos de sonido de la interfaz. move=al moverse por botones, select=al apretar OK, back=al volver, newuser=al crear usuario, download=al terminar una descarga, startup=sonido de arranque en la pantalla de usuarios.",
   "sfx": {
-    "move":     "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/moverse-en-botones-scroll.mp3",
-    "select":   "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/select-button.mp3",
-    "back":     "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/back-button.mp3",
-    "newuser":  "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/al-crear-user-nuevo.mp3",
+    "move": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/moverse-en-botones-scroll.mp3",
+    "select": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/select-button.mp3",
+    "back": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/back-button.mp3",
+    "newuser": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/al-crear-user-nuevo.mp3",
     "download": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/archivment-get-noti-descargas.mp3",
-    "startup":  "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/inicio-al-prender-selec-user.mp3"
+    "startup": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/music/inicio-al-prender-selec-user.mp3"
   },
-
   "emulators": {
-    "retroarch":   { "name": "RetroArch (32-bit)", "package": "com.retroarch.ra32",                  "type": "retroarch", "core": "/data/data/com.retroarch/cores/pcsx_rearmed_libretro.so",          "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/RetroArch_ra32.apk" },
-    "retroarch64": { "name": "RetroArch (64-bit)", "package": "com.retroarch.aarch64",          "type": "retroarch", "core": "/data/data/com.retroarch.aarch64/cores/pcsx_rearmed_libretro.so", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch64.apk" },
-    "epsxe":       { "name": "ePSXe",              "package": "com.epsxe.ePSXe",                "type": "epsxe", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/epsxe.apk",
-                     "bios": [ { "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/bios/SCPH1001.BIN", "to": "epsxe/bios/SCPH1001.BIN" } ] },
-    "duckstation": { "name": "DuckStation",         "package": "com.github.stenzek.duckstation", "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/duckstation.apk" },
-    "aethersx2":   { "name": "AetherSX2",           "package": "xyz.aethersx2.android",          "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/aethersx2.apk" },
-    "nethersx2":   { "name": "NetherSX2",           "package": "xyz.aethersx2.android",          "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/nethersx2.apk" },
-    "damonps2":    { "name": "DamonPS2",            "package": "com.damonps2.emulator",          "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/damonps2.apk" },
-    "ps2app":      { "name": "PS2 Games (app)",     "package": "com.ps2games.br",                "type": "app",  "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/ps2games.apk" },
-    "snes9x":      { "name": "Snes9x EX+",          "package": "com.explusalpha.Snes9xPlus",     "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/snes9x.apk" },
-    "mupen64":     { "name": "Mupen64Plus FZ",      "package": "org.mupen64plusae.v3.fzurita",   "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/mupen64.apk" },
-    "fbneo":       { "name": "FinalBurn Neo",       "package": "com.retroarch",                  "type": "retroarch", "core": "/data/data/com.retroarch/cores/fbneo_libretro.so", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch32.apk" },
-    "mdemu":       { "name": "MD.emu (Sega)",       "package": "com.explusalpha.MdEmu",          "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/mdemu.apk" },
-    "redream":     { "name": "Redream (Dreamcast)", "package": "io.recompiled.redream",          "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/redream.apk" },
-    "ppsspp":      { "name": "PPSSPP",              "package": "org.ppsspp.ppsspp",              "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/ppsspp.apk" },
-    "gbaemu":      { "name": "GBA.emu",             "package": "com.explusalpha.GbaEmu",         "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/gbaemu.apk" },
-    "drastic":     { "name": "DraStic (NDS)",       "package": "com.dsemu.drastic",              "type": "view", "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/drastic.apk" },
-    "xash3d":      { "name": "Xash3D FWGS",         "package": "su.xash.engine",                 "type": "app",  "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/xash3d.apk" },
-    "openbor":     { "name": "OpenBOR",             "package": "org.openbor.engine",             "type": "app",  "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/openbor.apk" },
-    "scummvm":     { "name": "ScummVM",             "package": "org.scummvm.scummvm",            "type": "app",  "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/scummvm.apk" }
+    "retroarch": {
+      "name": "RetroArch (32-bit)",
+      "package": "com.retroarch",
+      "type": "retroarch",
+      "core": "/data/data/com.retroarch/cores/pcsx_rearmed_libretro.so",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/RetroArch_ra32.apk"
+    },
+    "retroarch64": {
+      "name": "RetroArch (64-bit)",
+      "package": "com.retroarch.aarch64",
+      "type": "retroarch",
+      "core": "/data/data/com.retroarch.aarch64/cores/pcsx_rearmed_libretro.so",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch64.apk"
+    },
+    "epsxe": {
+      "name": "ePSXe",
+      "package": "com.epsxe.ePSXe",
+      "type": "epsxe",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/epsxe.apk",
+      "bios": [
+        {
+          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/bios/SCPH1001.BIN",
+          "to": "epsxe/bios/SCPH1001.BIN"
+        }
+      ]
+    },
+    "duckstation": {
+      "name": "DuckStation",
+      "package": "com.github.stenzek.duckstation",
+      "type": "view",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/duckstation.apk"
+    },
+    "aethersx2": {
+      "name": "AetherSX2",
+      "package": "xyz.aethersx2.android",
+      "type": "view",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/aethersx2.apk"
+    },
+    "nethersx2": {
+      "name": "NetherSX2",
+      "package": "xyz.aethersx2.android",
+      "type": "view",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/nethersx2.apk"
+    },
+    "damonps2": {
+      "name": "DamonPS2",
+      "package": "com.damonps2.emulator",
+      "type": "view",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/damonps2.apk"
+    },
+    "ps2app": {
+      "name": "PS2 Games (app)",
+      "package": "com.ps2games.br",
+      "type": "app",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/ps2games.apk"
+    },
+    "snes9x": {
+      "name": "Snes9x EX+",
+      "package": "com.explusalpha.Snes9xPlus",
+      "type": "view",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/snes9x.apk"
+    },
+    "mupen64": {
+      "name": "Mupen64Plus FZ",
+      "package": "org.mupen64plusae.v3.fzurita",
+      "type": "view",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/mupen64.apk"
+    },
+    "fbneo": {
+      "name": "FinalBurn Neo",
+      "package": "com.retroarch",
+      "type": "retroarch",
+      "core": "/data/data/com.retroarch/cores/fbneo_libretro.so",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch32.apk"
+    },
+    "mdemu": {
+      "name": "MD.emu (Sega)",
+      "package": "com.explusalpha.MdEmu",
+      "type": "view",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/mdemu.apk"
+    },
+    "redream": {
+      "name": "Redream (Dreamcast)",
+      "package": "io.recompiled.redream",
+      "type": "view",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/redream.apk"
+    },
+    "ppsspp": {
+      "name": "PPSSPP",
+      "package": "org.ppsspp.ppsspp",
+      "type": "view",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/ppsspp.apk"
+    },
+    "gbaemu": {
+      "name": "GBA.emu",
+      "package": "com.explusalpha.GbaEmu",
+      "type": "view",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/gbaemu.apk"
+    },
+    "drastic": {
+      "name": "DraStic (NDS)",
+      "package": "com.dsemu.drastic",
+      "type": "view",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/drastic.apk"
+    },
+    "xash3d": {
+      "name": "Xash3D FWGS",
+      "package": "su.xash.engine",
+      "type": "app",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/xash3d.apk"
+    },
+    "openbor": {
+      "name": "OpenBOR",
+      "package": "org.openbor.engine",
+      "type": "app",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/openbor.apk"
+    },
+    "scummvm": {
+      "name": "ScummVM",
+      "package": "org.scummvm.scummvm",
+      "type": "app",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/scummvm.apk"
+    }
   },
-
   "systems": [
     {
       "_nota": "Categoría tipo 'app': NO muestra juegos. Con 'app' (package) + 'apk' (instalador). Si está instalada la abre; si no, ofrece instalar. Aparece en el home justo después de Android.",
-      "id": "streaming", "name": "Servicio de Streaming", "icon": "📺", "accent": "#e11d48",
+      "id": "streaming",
+      "name": "Servicio de Streaming",
+      "icon": "📺",
+      "accent": "#e11d48",
       "desc": "Disfrutá de TV en vivo, pelis, series y música. Pedile tu cuenta a tu proveedor.",
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/streaming.png",
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/streaming.png",
@@ -50,159 +152,375 @@
     },
     {
       "_nota": "Categoría 'app' de YouTube. Package de SmartTube (TV sin ads); para YouTube normal usá com.google.android.youtube.",
-      "id": "youtube", "name": "YouTube", "icon": "▶️", "accent": "#ff0000",
+      "id": "youtube",
+      "name": "YouTube",
+      "icon": "▶️",
+      "accent": "#ff0000",
       "desc": "Mirá videos, música y streams. Versión para TV sin publicidad.",
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/youtube.jpg",
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/youtube.png",
-      "app": "com.teamsmart.videomanager.tv",
+      "app": [
+        "com.teamsmart.videomanager.tv",
+        "com.google.android.youtube.tv",
+        "com.google.android.youtube"
+      ],
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/apps/smarttube.apk",
       "games": []
     },
     {
-      "id": "ps1", "name": "PlayStation", "icon": "🎮", "accent": "#2f6fed",
+      "id": "ps1",
+      "name": "PlayStation",
+      "icon": "🎮",
+      "accent": "#2f6fed",
       "desc": "Disfrutá los mejores títulos de PlayStation.",
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/ps1.jpg",
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/ps1.png",
-      "romDir": "PS1", "extensions": ["cue","bin","chd","pbp","iso","img"],
-      "emulators": ["duckstation","epsxe","retroarch","retroarch64"],
+      "romDir": "PS1",
+      "extensions": [
+        "cue",
+        "bin",
+        "chd",
+        "pbp",
+        "iso",
+        "img"
+      ],
+      "emulators": [
+        "duckstation",
+        "epsxe",
+        "retroarch",
+        "retroarch64"
+      ],
       "games": [
-        { "id":"mk4", "title":"Mortal Kombat 4", "year":1997, "rating":4.4, "genre":"Lucha",
-          "desc":"Ejemplo con descarga directa de .bin (sin zip). 'cover' = carátula vertical, 'shot' = imagen horizontal del panel grande.",
-          "cover":"https://preview.redd.it/anyone-else-find-mortal-kombat-4-as-one-of-the-weakest-mk-v0-6dozutaxfwgf1.jpg?width=640&crop=smart&auto=webp&s=2c093a9940ae97de6d83169febc7831ebacd0398",
-          "shot":"https://images.gog-statics.com/9e140b92bb1c2ea48f1b0a9df83dde438d3947329d503f35104eb347b383c119_product_card_v2_mobile_slider_639.jpg",
-          "file":"Mortal.Kombat.4.USA.bin", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/Mortal.Kombat.4.bin", "size":"680 MB" },
-        { "id":"crash", "title":"Crash Bandicoot", "year":1996, "rating":4.6, "genre":"Plataformas",
-          "desc":"Ejemplo con .bin + .cue dentro de un .zip: el launcher lo descomprime y usa el .cue.",
-          "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps1/crash.jpg",
-          "file":"Crash Bandicoot.cue", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/crash.zip", "size":"500 MB" }
-      ]
-    },
-    {
-      "id": "psp", "name": "PSP", "icon": "🎮", "accent": "#111827",
-      "desc": "PlayStation Portable en tu tele.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/psp.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/psp.png",
-      "romDir": "PSP", "extensions": ["iso","cso"],
-      "emulators": ["ppsspp"],
-      "games": [
-        { "id":"gow_psp", "title":"God of War: Chains", "year":2008, "rating":4.7, "genre":"Acción",
-          "desc":"Ejemplo PSP con PPSSPP (descarga directa .iso).",
-          "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/gowc.jpg",
-          "file":"GoWChains.iso", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/psp/GoWChains.iso", "size":"900 MB" }
-      ]
-    },
-    {
-      "id": "genesis", "name": "Sega Mega Drive", "icon": "🕹️", "accent": "#1f6feb",
-      "desc": "Los clásicos de Sega Mega Drive / Genesis.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/genesis.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/genesis.png",
-      "romDir": "GENESIS", "extensions": ["md","bin","gen","smd","zip"],
-      "emulators": ["mdemu","retroarch","retroarch64"],
-      "games": [
-        { "id":"sonic2", "title":"Sonic the Hedgehog 2", "year":1992, "rating":4.8, "genre":"Plataformas",
-          "desc":"Sonic y Tails a toda velocidad.",
-          "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/genesis/sonic2.jpg",
-          "file":"Sonic2.md", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/genesis/Sonic2.md", "size":"1 MB" }
-      ]
-    },
-    {
-      "id": "dreamcast", "name": "Sega Dreamcast", "icon": "🌀", "accent": "#e05a2b",
-      "desc": "La última consola de Sega, adelantada a su época.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/dreamcast.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/dreamcast.png",
-      "romDir": "DC", "extensions": ["gdi","chd","cdi"],
-      "emulators": ["redream","retroarch","retroarch64"],
-      "games": [
-        { "id":"crazytaxi", "title":"Crazy Taxi", "year":1999, "rating":4.6, "genre":"Carreras",
-          "desc":"Ejemplo Dreamcast con Redream (.chd directo).",
-          "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/dreamcast/crazytaxi.jpg",
-          "file":"CrazyTaxi.chd", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/dreamcast/CrazyTaxi.chd", "size":"1.2 GB" }
-      ]
-    },
-    {
-      "id": "snes", "name": "Super Nintendo", "icon": "🎛️", "accent": "#8b5cf6",
-      "desc": "Los clásicos de Super Nintendo que marcaron una época.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/snes.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/snes.png",
-      "romDir": "SNES", "extensions": ["smc","sfc","zip"],
-      "emulators": ["snes9x","retroarch","retroarch64"],
-      "games": [
-        { "id":"smw", "title":"Super Mario World", "year":1990, "rating":4.9, "genre":"Plataformas",
-          "desc":"Mario y Yoshi en el clásico definitivo de plataformas.",
-          "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/snes/smw.jpg",
-          "file":"SuperMarioWorld.sfc", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/snes/SuperMarioWorld.sfc", "size":"512 KB" }
-      ]
-    },
-    {
-      "id": "gba", "name": "Game Boy Advance", "icon": "🎯", "accent": "#5b3fb3",
-      "desc": "La portátil de Nintendo con sus grandes hits.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/gba.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/gba.png",
-      "romDir": "GBA", "extensions": ["gba","zip"],
-      "emulators": ["gbaemu","retroarch","retroarch64"],
-      "games": [
-        { "id":"metroidfusion", "title":"Metroid Fusion", "year":2002, "rating":4.7, "genre":"Aventura",
-          "desc":"Ejemplo GBA.",
-          "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/gba/metroidfusion.jpg",
-          "file":"MetroidFusion.gba", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/gba/MetroidFusion.gba", "size":"8 MB" }
-      ]
-    },
-    {
-      "id": "nds", "name": "Nintendo DS", "icon": "🎮", "accent": "#c0392b",
-      "desc": "Doble pantalla, jugá con el control como touch.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/nds.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/nds.png",
-      "romDir": "NDS", "extensions": ["nds","zip"],
-      "emulators": ["drastic"],
-      "games": [
-        { "id":"nsmb", "title":"New Super Mario Bros", "year":2006, "rating":4.7, "genre":"Plataformas",
-          "desc":"Ejemplo NDS con DraStic.",
-          "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/nds/nsmb.jpg",
-          "file":"NSMB.nds", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/nds/NSMB.nds", "size":"64 MB" }
-      ]
-    },
-    {
-      "id": "n64", "name": "Nintendo 64", "icon": "🎯", "accent": "#e0342f",
-      "desc": "Revive las aventuras en 3D de la Nintendo 64.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/n64.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/n64.png",
-      "romDir": "N64", "extensions": ["z64","n64","v64","zip"],
-      "emulators": ["mupen64","retroarch","retroarch64"],
-      "games": [
-        { "id":"sm64", "title":"Super Mario 64", "year":1996, "rating":4.9, "genre":"Plataformas",
-          "desc":"El salto a las 3D que cambió los videojuegos para siempre.",
-          "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/n64/sm64.jpg",
-          "file":"SuperMario64.z64", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/n64/SuperMario64.z64", "size":"8 MB" }
-      ]
-    },
-    {
-      "id": "arcade", "name": "Arcade", "icon": "👾", "accent": "#f59e0b",
-      "desc": "La adrenalina de los fichines, directo a tu tele.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/arcade.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/arcade.png",
-      "romDir": "ARCADE", "extensions": ["zip"],
-      "emulators": ["fbneo","retroarch","retroarch64"],
-      "games": [
-        { "id":"mslug3", "title":"Metal Slug 3", "year":2000, "rating":4.8, "genre":"Run & Gun",
-          "desc":"En arcade el .zip ES la ROM (no se descomprime, RetroArch lo lee comprimido).",
-          "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/arcade/mslug3.jpg",
-          "file":"mslug3.zip", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/arcade/mslug3.zip", "size":"30 MB" }
+        {
+          "id": "mk4",
+          "title": "Mortal Kombat 4",
+          "year": 1997,
+          "rating": 4.4,
+          "genre": "Lucha",
+          "desc": "Ejemplo con descarga directa de .bin (sin zip). 'cover' = carátula vertical, 'shot' = imagen horizontal del panel grande.",
+          "cover": "https://preview.redd.it/anyone-else-find-mortal-kombat-4-as-one-of-the-weakest-mk-v0-6dozutaxfwgf1.jpg?width=640&crop=smart&auto=webp&s=2c093a9940ae97de6d83169febc7831ebacd0398",
+          "shot": "https://images.gog-statics.com/9e140b92bb1c2ea48f1b0a9df83dde438d3947329d503f35104eb347b383c119_product_card_v2_mobile_slider_639.jpg",
+          "file": "Mortal.Kombat.4.USA.bin",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/Mortal.Kombat.4.bin",
+          "size": "680 MB"
+        },
+        {
+          "id": "crash",
+          "title": "Crash Bandicoot",
+          "year": 1996,
+          "rating": 4.6,
+          "genre": "Plataformas",
+          "desc": "Ejemplo con .bin + .cue dentro de un .zip: el launcher lo descomprime y usa el .cue.",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps1/crash.jpg",
+          "file": "Crash Bandicoot.cue",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/crash.zip",
+          "size": "500 MB"
+        }
       ]
     },
     {
       "_nota": "PC Ports: motores como Xash3D (GoldSrc/Half-Life), OpenBOR y ScummVM. Cada 'juego' es un .zip con los datos del mod/juego que se descomprime en 'destDir' (la carpeta que lee el motor). Al dar Jugar, se abre el motor y ahí elegís el juego. IMPORTANTE: subí SOLO contenido libre / homebrew / que el usuario ya tenga; no subas juegos comerciales.",
-      "id": "ports", "name": "PC Ports", "icon": "🖥️", "accent": "#0ea5a4",
+      "id": "ports",
+      "name": "PC Ports",
+      "icon": "🖥️",
+      "accent": "#0ea5a4",
       "desc": "Ports de PC y juegos con motores (Xash3D, OpenBOR, ScummVM). Bajás el contenido y lo abrís desde su motor.",
       "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/ports.jpg",
       "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/ports.png",
-      "romDir": "PORTS", "destDir": "xash", "extensions": ["zip","pak","pk3"],
-      "emulators": ["xash3d","openbor","scummvm"],
+      "romDir": "PORTS",
+      "destDir": "xash",
+      "extensions": [
+        "zip",
+        "pak",
+        "pk3"
+      ],
+      "emulators": [
+        "xash3d",
+        "openbor",
+        "scummvm"
+      ],
       "games": [
-        { "id":"port_ejemplo", "title":"Mod de ejemplo (Xash3D)", "year":2020, "rating":4.5, "genre":"Port",
-          "desc":"Ejemplo: el .zip trae la carpeta del mod (ej. valve/). Se descomprime en la carpeta de Xash3D. Al dar Jugar abrís Xash3D y elegís el mod. Subí solo contenido libre / homebrew.",
-          "cover":"https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/ejemplo.jpg",
-          "file":"mod_ejemplo", "download":"https://github.com/corboplay-glitch/NexusWin/releases/download/ports/mod_ejemplo.zip", "size":"120 MB",
-          "emulators":["xash3d"] }
+        {
+          "id": "port_ejemplo",
+          "title": "Mod de ejemplo (Xash3D)",
+          "year": 2020,
+          "rating": 4.5,
+          "genre": "Port",
+          "desc": "Ejemplo: el .zip trae la carpeta del mod (ej. valve/). Se descomprime en la carpeta de Xash3D. Al dar Jugar abrís Xash3D y elegís el mod. Subí solo contenido libre / homebrew.",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/ejemplo.jpg",
+          "file": "mod_ejemplo",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/mod_ejemplo.zip",
+          "size": "120 MB",
+          "emulators": [
+            "xash3d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psp",
+      "name": "PSP",
+      "icon": "🎮",
+      "accent": "#111827",
+      "desc": "PlayStation Portable en tu tele.",
+      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/psp.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/psp.png",
+      "romDir": "PSP",
+      "extensions": [
+        "iso",
+        "cso"
+      ],
+      "emulators": [
+        "ppsspp"
+      ],
+      "games": [
+        {
+          "id": "gow_psp",
+          "title": "God of War: Chains",
+          "year": 2008,
+          "rating": 4.7,
+          "genre": "Acción",
+          "desc": "Ejemplo PSP con PPSSPP (descarga directa .iso).",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/gowc.jpg",
+          "file": "GoWChains.iso",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/GoWChains.iso",
+          "size": "900 MB"
+        }
+      ]
+    },
+    {
+      "id": "genesis",
+      "name": "Sega Mega Drive",
+      "icon": "🕹️",
+      "accent": "#1f6feb",
+      "desc": "Los clásicos de Sega Mega Drive / Genesis.",
+      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/genesis.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/genesis.png",
+      "romDir": "GENESIS",
+      "extensions": [
+        "md",
+        "bin",
+        "gen",
+        "smd",
+        "zip"
+      ],
+      "emulators": [
+        "mdemu",
+        "retroarch",
+        "retroarch64"
+      ],
+      "games": [
+        {
+          "id": "sonic2",
+          "title": "Sonic the Hedgehog 2",
+          "year": 1992,
+          "rating": 4.8,
+          "genre": "Plataformas",
+          "desc": "Sonic y Tails a toda velocidad.",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/genesis/sonic2.jpg",
+          "file": "Sonic2.md",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/genesis/Sonic2.md",
+          "size": "1 MB"
+        }
+      ]
+    },
+    {
+      "id": "dreamcast",
+      "name": "Sega Dreamcast",
+      "icon": "🌀",
+      "accent": "#e05a2b",
+      "desc": "La última consola de Sega, adelantada a su época.",
+      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/dreamcast.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/dreamcast.png",
+      "romDir": "DC",
+      "extensions": [
+        "gdi",
+        "chd",
+        "cdi"
+      ],
+      "emulators": [
+        "redream",
+        "retroarch",
+        "retroarch64"
+      ],
+      "games": [
+        {
+          "id": "crazytaxi",
+          "title": "Crazy Taxi",
+          "year": 1999,
+          "rating": 4.6,
+          "genre": "Carreras",
+          "desc": "Ejemplo Dreamcast con Redream (.chd directo).",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/dreamcast/crazytaxi.jpg",
+          "file": "CrazyTaxi.chd",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/dreamcast/CrazyTaxi.chd",
+          "size": "1.2 GB"
+        }
+      ]
+    },
+    {
+      "id": "snes",
+      "name": "Super Nintendo",
+      "icon": "🎛️",
+      "accent": "#8b5cf6",
+      "desc": "Los clásicos de Super Nintendo que marcaron una época.",
+      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/snes.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/snes.png",
+      "romDir": "SNES",
+      "extensions": [
+        "smc",
+        "sfc",
+        "zip"
+      ],
+      "emulators": [
+        "snes9x",
+        "retroarch",
+        "retroarch64"
+      ],
+      "games": [
+        {
+          "id": "smw",
+          "title": "Super Mario World",
+          "year": 1990,
+          "rating": 4.9,
+          "genre": "Plataformas",
+          "desc": "Mario y Yoshi en el clásico definitivo de plataformas.",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/snes/smw.jpg",
+          "file": "SuperMarioWorld.sfc",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/snes/SuperMarioWorld.sfc",
+          "size": "512 KB"
+        }
+      ]
+    },
+    {
+      "id": "gba",
+      "name": "Game Boy Advance",
+      "icon": "🎯",
+      "accent": "#5b3fb3",
+      "desc": "La portátil de Nintendo con sus grandes hits.",
+      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/gba.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/gba.png",
+      "romDir": "GBA",
+      "extensions": [
+        "gba",
+        "zip"
+      ],
+      "emulators": [
+        "gbaemu",
+        "retroarch",
+        "retroarch64"
+      ],
+      "games": [
+        {
+          "id": "metroidfusion",
+          "title": "Metroid Fusion",
+          "year": 2002,
+          "rating": 4.7,
+          "genre": "Aventura",
+          "desc": "Ejemplo GBA.",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/gba/metroidfusion.jpg",
+          "file": "MetroidFusion.gba",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/gba/MetroidFusion.gba",
+          "size": "8 MB"
+        }
+      ]
+    },
+    {
+      "id": "nds",
+      "name": "Nintendo DS",
+      "icon": "🎮",
+      "accent": "#c0392b",
+      "desc": "Doble pantalla, jugá con el control como touch.",
+      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/nds.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/nds.png",
+      "romDir": "NDS",
+      "extensions": [
+        "nds",
+        "zip"
+      ],
+      "emulators": [
+        "drastic"
+      ],
+      "games": [
+        {
+          "id": "nsmb",
+          "title": "New Super Mario Bros",
+          "year": 2006,
+          "rating": 4.7,
+          "genre": "Plataformas",
+          "desc": "Ejemplo NDS con DraStic.",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/nds/nsmb.jpg",
+          "file": "NSMB.nds",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/nds/NSMB.nds",
+          "size": "64 MB"
+        }
+      ]
+    },
+    {
+      "id": "n64",
+      "name": "Nintendo 64",
+      "icon": "🎯",
+      "accent": "#e0342f",
+      "desc": "Revive las aventuras en 3D de la Nintendo 64.",
+      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/n64.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/n64.png",
+      "romDir": "N64",
+      "extensions": [
+        "z64",
+        "n64",
+        "v64",
+        "zip"
+      ],
+      "emulators": [
+        "mupen64",
+        "retroarch",
+        "retroarch64"
+      ],
+      "games": [
+        {
+          "id": "sm64",
+          "title": "Super Mario 64",
+          "year": 1996,
+          "rating": 4.9,
+          "genre": "Plataformas",
+          "desc": "El salto a las 3D que cambió los videojuegos para siempre.",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/n64/sm64.jpg",
+          "file": "SuperMario64.z64",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/n64/SuperMario64.z64",
+          "size": "8 MB"
+        }
+      ]
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade",
+      "icon": "👾",
+      "accent": "#f59e0b",
+      "desc": "La adrenalina de los fichines, directo a tu tele.",
+      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/arcade.jpg",
+      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/arcade.png",
+      "romDir": "ARCADE",
+      "extensions": [
+        "zip"
+      ],
+      "emulators": [
+        "fbneo",
+        "retroarch",
+        "retroarch64"
+      ],
+      "games": [
+        {
+          "id": "mslug3",
+          "title": "Metal Slug 3",
+          "year": 2000,
+          "rating": 4.8,
+          "genre": "Run & Gun",
+          "desc": "En arcade el .zip ES la ROM (no se descomprime, RetroArch lo lee comprimido).",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/arcade/mslug3.jpg",
+          "file": "mslug3.zip",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/arcade/mslug3.zip",
+          "size": "30 MB"
+        }
       ]
     }
   ]
