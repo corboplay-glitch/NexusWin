@@ -1,0 +1,15 @@
+[
+  {
+    "id": "sonic2",
+    "title": "Sonic the Hedgehog 2",
+    "year": 1992,
+    "rating": 4.8,
+    "genre": "Plataformas",
+    "desc": "Sonic y Tails a toda velocidad.",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/genesis/sonic2.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/genesis/sonic2-2.jpg",
+    "file": "Sonic.The.Hedgehog.ESP.md",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/genesis/Sonic.The.Hedgehog.ESP.md",
+    "size": "1 MB"
+  }
+]

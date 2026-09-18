@@ -1,0 +1,15 @@
+[
+  {
+    "id": "metroidfusion",
+    "title": "Metroid Fusion",
+    "year": 2002,
+    "rating": 4.7,
+    "genre": "Aventura",
+    "desc": "Ejemplo GBA.",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/gba/metroidfusion.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/gba/metroidfusion-2.jpg",
+    "file": "MetroidFusion.gba",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/gba/MetroidFusion.gba",
+    "size": "8 MB"
+  }
+]

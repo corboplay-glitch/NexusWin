@@ -1,0 +1,15 @@
+[
+  {
+    "id": "nsmb",
+    "title": "New Super Mario Bros",
+    "year": 2006,
+    "rating": 4.7,
+    "genre": "Plataformas",
+    "desc": "Ejemplo NDS con DraStic.",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/nds/nsmb.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/nds/nsmb-2.jpg",
+    "file": "NSMB.nds",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/nds/NSMB.nds",
+    "size": "64 MB"
+  }
+]

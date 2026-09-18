@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ps2_ejemplo",
+    "title": "Juego PS2 (ejemplo)",
+    "year": 2005,
+    "rating": 4.5,
+    "genre": "Varios",
+    "desc": "Ejemplo con .iso directo (sin zip). Para PS2 recomiendo NetherSX2. Subí SOLO juegos que ya tengas.",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo-2.jpg",
+    "file": "JuegoPS2.iso",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.iso",
+    "size": "3 GB",
+    "emulators": [
+      "nethersx2",
+      "play",
+      "damonps2"
+    ]
+  },
+  {
+    "id": "ps2_chd",
+    "title": "Juego PS2 (.chd, ejemplo)",
+    "year": 2004,
+    "rating": 4.6,
+    "genre": "Varios",
+    "desc": "Ejemplo en .chd: es un .iso comprimido que pesa bastante menos y NetherSX2 lo abre igual. Va suelto (sin zip). Subí SOLO juegos que ya tengas.",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_chd.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_chd-2.jpg",
+    "file": "JuegoPS2.chd",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.chd",
+    "size": "1.4 GB",
+    "emulators": [
+      "nethersx2",
+      "play",
+      "damonps2"
+    ]
+  },
+  {
+    "id": "ps2_zip",
+    "title": "Juego PS2 (.zip, ejemplo)",
+    "year": 2003,
+    "rating": 4.5,
+    "genre": "Varios",
+    "desc": "Ejemplo en ZIP: adentro va el .iso (o .chd). El launcher lo descomprime solo y NetherSX2 abre el archivo. 'file' = el nombre del archivo final que queda tras descomprimir.",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_zip.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_zip-2.jpg",
+    "file": "JuegoPS2.iso",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.zip",
+    "size": "2.5 GB",
+    "emulators": [
+      "nethersx2",
+      "play",
+      "damonps2"
+    ]
+  }
+]

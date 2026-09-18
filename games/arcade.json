@@ -1,0 +1,15 @@
+[
+  {
+    "id": "mslug3",
+    "title": "Metal Slug 3",
+    "year": 2000,
+    "rating": 4.8,
+    "genre": "Run & Gun",
+    "desc": "En arcade el .zip ES la ROM (no se descomprime, RetroArch lo lee comprimido).",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/arcade/mslug3.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/arcade/mslug3-2.jpg",
+    "file": "mslug3.zip",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/arcade/mslug3.zip",
+    "size": "30 MB"
+  }
+]

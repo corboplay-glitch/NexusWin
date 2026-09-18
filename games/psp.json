@@ -1,0 +1,31 @@
+[
+  {
+    "id": "gow_psp",
+    "title": "God of War: Chains",
+    "year": 2008,
+    "rating": 4.7,
+    "genre": "Acción",
+    "desc": "Ejemplo PSP con PPSSPP (descarga directa .iso).",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/gowc.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/gowc-2.jpg",
+    "file": "GoWChains.iso",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/GoWChains.iso",
+    "size": "900 MB"
+  },
+  {
+    "id": "psp_pbp_ejemplo",
+    "title": "Juego PSP en carpeta (ejemplo EBOOT)",
+    "year": 2010,
+    "rating": 4.5,
+    "genre": "Varios",
+    "desc": "Ejemplo de juego PSP que viene como CARPETA (EBOOT.PBP + data/). Va en ZIP: el launcher lo descomprime respetando subcarpetas y PPSSPP abre el EBOOT.PBP. Subí SOLO homebrew o juegos que ya tengas.",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/ejemplo.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/psp/ejemplo-2.jpg",
+    "file": "MiJuegoPSP/EBOOT.PBP",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/MiJuegoPSP.zip",
+    "size": "300 MB",
+    "emulators": [
+      "ppsspp"
+    ]
+  }
+]

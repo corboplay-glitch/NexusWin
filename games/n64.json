@@ -1,0 +1,15 @@
+[
+  {
+    "id": "sm64",
+    "title": "Super Mario 64",
+    "year": 1996,
+    "rating": 4.9,
+    "genre": "Plataformas",
+    "desc": "El salto a las 3D que cambió los videojuegos para siempre.",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/n64/sm64.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/n64/sm64-2.jpg",
+    "file": "SuperMario64.z64",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/n64/SuperMario64.z64",
+    "size": "8 MB"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "crazytaxi",
+    "title": "Crazy Taxi",
+    "year": 1999,
+    "rating": 4.6,
+    "genre": "Carreras",
+    "desc": "Ejemplo Dreamcast con Redream (.chd directo).",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/dreamcast/crazytaxi.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/dreamcast/crazytaxi-2.jpg",
+    "file": "CrazyTaxi.chd",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/dreamcast/CrazyTaxi.chd",
+    "size": "1.2 GB"
+  }
+]

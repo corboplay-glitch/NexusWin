@@ -1,0 +1,52 @@
+[
+  {
+    "id": "port_xash",
+    "title": "Mod de Half-Life (Xash3D)",
+    "year": 2020,
+    "rating": 4.5,
+    "genre": "Port",
+    "desc": "El .zip trae la carpeta del mod (ej. 'valve/' o el nombre del mod). Se descomprime en la carpeta de Xash3D. Al dar Jugar abrís Xash3D y elegís el mod. Subí SOLO contenido libre / homebrew / que el usuario ya tenga.",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/xash.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/xash-2.jpg",
+    "file": "mi_mod",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/mi_mod.zip",
+    "size": "150 MB",
+    "emulators": [
+      "xash3d"
+    ]
+  },
+  {
+    "id": "port_openbor",
+    "title": "Juego OpenBOR (ejemplo)",
+    "year": 2019,
+    "rating": 4.4,
+    "genre": "Beat'em up",
+    "desc": "OpenBOR usa archivos .pak. Este baja el .pak a la carpeta de OpenBOR. Abrís OpenBOR y lo elegís de la lista. Solo contenido libre / homebrew.",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/openbor.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/openbor-2.jpg",
+    "file": "MiJuego.pak",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/MiJuego.pak",
+    "size": "80 MB",
+    "destDir": "OpenBOR/Paks",
+    "emulators": [
+      "openbor"
+    ]
+  },
+  {
+    "id": "port_scummvm",
+    "title": "Aventura clásica (ScummVM)",
+    "year": 1995,
+    "rating": 4.7,
+    "genre": "Aventura",
+    "desc": "El .zip trae la carpeta del juego (con sus datos). Se descomprime en la carpeta de ScummVM; abrís ScummVM, 'Agregar juego' y elegís esa carpeta. Solo juegos freeware o que el usuario tenga.",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/scummvm.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/scummvm-2.jpg",
+    "file": "MiAventura",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/MiAventura.zip",
+    "size": "60 MB",
+    "destDir": "ScummVM/juegos",
+    "emulators": [
+      "scummvm"
+    ]
+  }
+]

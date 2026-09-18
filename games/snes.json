@@ -1,0 +1,15 @@
+[
+  {
+    "id": "smw",
+    "title": "Super Mario World",
+    "year": 1990,
+    "rating": 4.9,
+    "genre": "Plataformas",
+    "desc": "Mario y Yoshi en el clásico definitivo de plataformas.",
+    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/snes/smw.jpg",
+    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/snes/smw-2.jpg",
+    "file": "SuperMarioWorld.sfc",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/snes/SuperMarioWorld.sfc",
+    "size": "512 KB"
+  }
+]
