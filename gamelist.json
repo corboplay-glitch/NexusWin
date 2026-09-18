@@ -34,7 +34,7 @@
       "bios": [
         {
           "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/bios/SCPH1001.BIN",
-          "to": "epsxe/bios/SCPH1001.BIN"
+          "to": "Download/epsxebios/SCPH1001.BIN"
         }
       ]
     },
