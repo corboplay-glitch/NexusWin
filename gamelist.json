@@ -442,8 +442,9 @@
           "genre": "Plataformas",
           "desc": "Sonic y Tails a toda velocidad.",
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/genesis/sonic2.jpg",
-          "file": "Sonic2.md",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/genesis/Sonic2.md",
+          "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/genesis/sonic2-2.jpg",
+          "file": "Sonic.The.Hedgehog.ESP.md",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/genesis/Sonic.The.Hedgehog.ESP.md",
           "size": "1 MB"
         }
       ]
