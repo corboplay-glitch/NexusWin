@@ -242,8 +242,8 @@
       "icon": "🖥️",
       "accent": "#0ea5a4",
       "desc": "Ports de PC y juegos con motores (Xash3D, OpenBOR, ScummVM). Bajás el contenido y lo abrís desde su motor.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/ports.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/ports.png",
+      "fondo": "https://i.ytimg.com/vi/5Mi5Z6ixlE0/sddefault.jpg",
+      "icono": "https://i.ytimg.com/vi/FH2zIL6eTHo/maxresdefault.jpg",
       "romDir": "PORTS",
       "destDir": "xash",
       "extensions": [
