@@ -54,7 +54,13 @@
       "name": "NetherSX2",
       "package": "xyz.aethersx2.android",
       "type": "view",
-      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/nethersx2.apk"
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/nethersx2.apk",
+      "bios": [
+        {
+          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/bios/ps2_bios.bin",
+          "to": "PS2/bios/ps2_bios.bin"
+        }
+      ]
     },
     "damonps2": {
       "name": "DamonPS2",
@@ -220,9 +226,7 @@
         "bin"
       ],
       "emulators": [
-        "nethersx2",
-        "aethersx2",
-        "damonps2"
+        "nethersx2"
       ],
       "games": [
         {
@@ -235,7 +239,10 @@
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo.jpg",
           "file": "JuegoPS2.iso",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.iso",
-          "size": "3 GB"
+          "size": "3 GB",
+          "emulators": [
+            "nethersx2"
+          ]
         },
         {
           "id": "ps2_chd",
@@ -247,7 +254,10 @@
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_chd.jpg",
           "file": "JuegoPS2.chd",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.chd",
-          "size": "1.4 GB"
+          "size": "1.4 GB",
+          "emulators": [
+            "nethersx2"
+          ]
         },
         {
           "id": "ps2_zip",
@@ -259,7 +269,10 @@
           "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ps2/ejemplo_zip.jpg",
           "file": "JuegoPS2.iso",
           "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps2/JuegoPS2.zip",
-          "size": "2.5 GB"
+          "size": "2.5 GB",
+          "emulators": [
+            "nethersx2"
+          ]
         }
       ]
     },
@@ -286,18 +299,50 @@
       ],
       "games": [
         {
-          "id": "port_ejemplo",
-          "title": "Mod de ejemplo (Xash3D)",
+          "id": "port_xash",
+          "title": "Mod de Half-Life (Xash3D)",
           "year": 2020,
           "rating": 4.5,
           "genre": "Port",
-          "desc": "Ejemplo: el .zip trae la carpeta del mod (ej. valve/). Se descomprime en la carpeta de Xash3D. Al dar Jugar abrís Xash3D y elegís el mod. Subí solo contenido libre / homebrew.",
-          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/ejemplo.jpg",
-          "file": "mod_ejemplo",
-          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/mod_ejemplo.zip",
-          "size": "120 MB",
+          "desc": "El .zip trae la carpeta del mod (ej. 'valve/' o el nombre del mod). Se descomprime en la carpeta de Xash3D. Al dar Jugar abrís Xash3D y elegís el mod. Subí SOLO contenido libre / homebrew / que el usuario ya tenga.",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/xash.jpg",
+          "file": "mi_mod",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/mi_mod.zip",
+          "size": "150 MB",
           "emulators": [
             "xash3d"
+          ]
+        },
+        {
+          "id": "port_openbor",
+          "title": "Juego OpenBOR (ejemplo)",
+          "year": 2019,
+          "rating": 4.4,
+          "genre": "Beat'em up",
+          "desc": "OpenBOR usa archivos .pak. Este baja el .pak a la carpeta de OpenBOR. Abrís OpenBOR y lo elegís de la lista. Solo contenido libre / homebrew.",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/openbor.jpg",
+          "file": "MiJuego.pak",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/MiJuego.pak",
+          "size": "80 MB",
+          "destDir": "OpenBOR/Paks",
+          "emulators": [
+            "openbor"
+          ]
+        },
+        {
+          "id": "port_scummvm",
+          "title": "Aventura clásica (ScummVM)",
+          "year": 1995,
+          "rating": 4.7,
+          "genre": "Aventura",
+          "desc": "El .zip trae la carpeta del juego (con sus datos). Se descomprime en la carpeta de ScummVM; abrís ScummVM, 'Agregar juego' y elegís esa carpeta. Solo juegos freeware o que el usuario tenga.",
+          "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/scummvm.jpg",
+          "file": "MiAventura",
+          "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/MiAventura.zip",
+          "size": "60 MB",
+          "destDir": "ScummVM/juegos",
+          "emulators": [
+            "scummvm"
           ]
         }
       ]
