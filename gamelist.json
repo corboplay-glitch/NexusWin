@@ -14,16 +14,16 @@
   "emulators": {
     "retroarch": {
       "name": "RetroArch (32-bit)",
-      "package": "com.retroarch",
+      "package": "com.retroarch.ra32",
       "type": "retroarch",
-      "core": "/data/data/com.retroarch/cores/pcsx_rearmed_libretro.so",
+      "core": "/data/data/com.retroarch.ra32/cores/pcsx_rearmed_libretro_android.so",
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/RetroArch_ra32.apk"
     },
     "retroarch64": {
       "name": "RetroArch (64-bit)",
       "package": "com.retroarch.aarch64",
       "type": "retroarch",
-      "core": "/data/data/com.retroarch.aarch64/cores/pcsx_rearmed_libretro.so",
+      "core": "/data/data/com.retroarch.aarch64/cores/pcsx_rearmed_libretro_android.so",
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch64.apk"
     },
     "epsxe": {
@@ -88,9 +88,9 @@
     },
     "fbneo": {
       "name": "FinalBurn Neo",
-      "package": "com.retroarch",
+      "package": "com.retroarch.ra32",
       "type": "retroarch",
-      "core": "/data/data/com.retroarch/cores/fbneo_libretro.so",
+      "core": "/data/data/com.retroarch.ra32/cores/fbneo_libretro_android.so",
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/retroarch32.apk"
     },
     "mdemu": {
@@ -196,10 +196,12 @@
         "iso",
         "img"
       ],
-      "core": "pcsx_rearmed_libretro.so",
+      "core": "pcsx_rearmed_libretro_android.so",
       "emulators": [
         "duckstation",
-        "epsxe"
+        "epsxe",
+        "retroarch",
+        "retroarch64"
       ],
       "games": [
         {
@@ -442,7 +444,7 @@
         "smd",
         "zip"
       ],
-      "core": "genesis_plus_gx_libretro.so",
+      "core": "genesis_plus_gx_libretro_android.so",
       "emulators": [
         "mdemu",
         "retroarch",
@@ -479,7 +481,7 @@
         "chd",
         "cdi"
       ],
-      "core": "flycast_libretro.so",
+      "core": "flycast_libretro_android.so",
       "emulators": [
         "redream",
         "retroarch",
@@ -516,7 +518,7 @@
         "sfc",
         "zip"
       ],
-      "core": "snes9x_libretro.so",
+      "core": "snes9x_libretro_android.so",
       "emulators": [
         "snes9x",
         "retroarch",
@@ -552,7 +554,7 @@
         "gba",
         "zip"
       ],
-      "core": "mgba_libretro.so",
+      "core": "mgba_libretro_android.so",
       "emulators": [
         "gbaemu",
         "retroarch",
@@ -623,7 +625,7 @@
         "v64",
         "zip"
       ],
-      "core": "mupen64plus_next_libretro.so",
+      "core": "mupen64plus_next_libretro_android.so",
       "emulators": [
         "mupen64",
         "retroarch",
@@ -658,7 +660,7 @@
       "extensions": [
         "zip"
       ],
-      "core": "fbneo_libretro.so",
+      "core": "fbneo_libretro_android.so",
       "emulators": [
         "fbneo",
         "retroarch",
