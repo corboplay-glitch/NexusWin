@@ -379,7 +379,8 @@
         "cso"
       ],
       "emulators": [
-        "ppsspp"
+        "ppsspp",
+        "ppsspplegacy"
       ],
       "games": [
         {
