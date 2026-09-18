@@ -263,9 +263,9 @@
       "name": "PSP",
       "icon": "🎮",
       "accent": "#111827",
-      "desc": "PlayStation Portable en tu tele.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/psp.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/psp.png",
+      "desc": "PlayStation Portable .",
+      "fondo": "https://i.pinimg.com/736x/bb/66/8e/bb668e9ad9d695975b25daa618bf1939.jpg",
+      "icono": "https://fotografias-2.larazon.es/assets/2026/08/psp-movil.jpg?width=1900&height=1069",
       "romDir": "PSP",
       "destDir": "Download/NexusArcade/PSP",
       "extensions": [
