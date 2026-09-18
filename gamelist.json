@@ -42,7 +42,13 @@
       "name": "DuckStation",
       "package": "com.github.stenzek.duckstation",
       "type": "view",
-      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/duckstation.apk"
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/duckstation.apk",
+      "bios": [
+        {
+          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/bios/SCPH1001.BIN",
+          "to": "Download/ducksPs1bios/SCPH1001.BIN"
+        }
+      ]
     },
     "nethersx2": {
       "name": "NetherSX2",
