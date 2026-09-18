@@ -111,7 +111,7 @@
         }
       ]
     },
-    "ppsspp": {
+    "ppsspplegacy": {
       "name": "PPSSPP Legacy",
       "package": "org.ppsspp.ppsspplegacy",
       "type": "view",
