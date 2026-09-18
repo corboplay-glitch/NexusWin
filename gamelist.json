@@ -111,6 +111,18 @@
         }
       ]
     },
+    "ppsspp": {
+      "name": "PPSSPP Legacy",
+      "package": "org.ppsspp.ppsspplegacy",
+      "type": "view",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/ppssppLegacy.apk",
+      "bios": [
+        {
+          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/bios/CONFIGppsspp.ini",
+          "to": "Download/PSPCONFIG/ppsspp.ini"
+        }
+      ]
+    },
     "gbaemu": {
       "name": "GBA.emu",
       "package": "com.explusalpha.GbaEmu",
