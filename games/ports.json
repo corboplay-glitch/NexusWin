@@ -5,7 +5,7 @@
     "year": 2020,
     "rating": 4.5,
     "genre": "Port",
-    "desc": "El .zip trae la carpeta del mod (ej. 'valve/' o el nombre del mod). Se descomprime en la carpeta de Xash3D. Al dar Jugar abrís Xash3D y elegís el mod.",
+    "desc": "El .zip trae la carpeta del mod (ej. 'valve/' o el nombre del mod). en la store nexus baja la app .rar y descomprime el datavalve.zip en la carpeta de Xash3D y deja las 3 carpetas sueltas. Al dar Jugar abrís Xash3D y elegís el mod.",
     "cover": "https://m.media-amazon.com/images/M/MV5BOWU1MTVhOTUtNmU0Mi00MWNiLWIyOWQtMDFkOTFmMzc5ZTNkXkEyXkFqcGc@._V1_.jpg",
     "shot": "https://i.ytimg.com/vi/EMciLe55afs/hqdefault.jpg",
     "file": "datavalve",
@@ -16,37 +16,35 @@
     ]
   },
   {
-    "id": "port_openbor",
-    "title": "Half-Life 2",
-    "year": 2019,
-    "rating": 4.4,
-    "genre": "Beat'em up",
-    "desc": "OpenBOR usa archivos .pak. Este baja el .pak a la carpeta de OpenBOR. Abrís OpenBOR y lo elegís de la lista. Solo contenido libre / homebrew.",
-    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/openbor.jpg",
-    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/openbor-2.jpg",
-    "file": "MiJuego.pak",
-    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/MiJuego.pak",
-    "size": "80 MB",
-    "destDir": "OpenBOR/Paks",
+    "id": "port_xash",
+    "title": "age of empage 2 (proximamente)",
+    "year": 2020,
+    "rating": 4.5,
+    "genre": "Port",
+    "desc": "El .zip trae la carpeta del mod (ej. 'valve/' o el nombre del mod). en la store nexus baja la app .rar y descomprime el datavalve.zip en la carpeta de Xash3D y deja las 3 carpetas sueltas. Al dar Jugar abrís Xash3D y elegís el mod.",
+    "cover": "https://static0.dualshockersimages.com/wordpress/wp-content/uploads/sharedimages/2024/12/mixcollage-09-dec-2024-12-52-am-4192.jpg",
+    "shot": "https://i.blogs.es/0b3236/age-of-empires-2-captura/1366_2000.jpg",
+    "file": "datavalve",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/proximo.zip",
+    "size": "600 MB",
     "emulators": [
-      "openbor"
+      "xash3d"
     ]
   },
   {
-    "id": "port_scummvm",
-    "title": "Aventura clásica (ScummVM)",
-    "year": 1995,
-    "rating": 4.7,
-    "genre": "Aventura",
-    "desc": "El .zip trae la carpeta del juego (con sus datos). Se descomprime en la carpeta de ScummVM; abrís ScummVM, 'Agregar juego' y elegís esa carpeta. Solo juegos freeware o que el usuario tenga.",
-    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/scummvm.jpg",
-    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/scummvm-2.jpg",
-    "file": "MiAventura",
-    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/MiAventura.zip",
-    "size": "60 MB",
-    "destDir": "ScummVM/juegos",
+    "id": "port_xash",
+    "title": "Half-Life 2 (proximamente)",
+    "year": 2020,
+    "rating": 4.5,
+    "genre": "Port",
+    "desc": "El .zip trae la carpeta del mod (ej. 'valve/' o el nombre del mod). en la store nexus baja la app .rar y descomprime el datavalve.zip en la carpeta de Xash3D y deja las 3 carpetas sueltas. Al dar Jugar abrís Xash3D y elegís el mod.",
+    "cover": "https://m.media-amazon.com/images/M/MV5BY2I5M2E2MWEtN2ZhOC00NWNlLWFjY2ItMDJkZTdkYzdhY2Q0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "shot": "https://preview.redd.it/half-life-2-mobile-v0-lasqcdwczovd1.jpeg?auto=webp&s=f766eb5a90fabf69b93d5a3d5c52087243a75be5",
+    "file": "datavalve",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/proximo.zip",
+    "size": "600 MB",
     "emulators": [
-      "scummvm"
+      "xash3d"
     ]
   }
 ]
