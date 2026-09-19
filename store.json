@@ -60,15 +60,6 @@
           "size": "20 MB"
         },
         {
-          "name": "DamonPS2 (PS2)",
-          "desc": "Emulador PS2 alternativo",
-          "icon": "🎮",
-          "type": "apk",
-          "package": "com.damonps2.emulator",
-          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/damonps2.apk",
-          "size": "25 MB"
-        },
-        {
           "name": "PPSSPP (PSP)",
           "desc": "Emulador PSP",
           "icon": "🎮",
@@ -94,52 +85,33 @@
           "package": "com.retroarch",
           "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/RetroArch_ra32.apk",
           "size": "110 MB"
-        },
-        {
-          "name": "MD.emu (Sega)",
-          "desc": "Mega Drive / Master System",
-          "icon": "🕹️",
-          "type": "apk",
-          "package": "com.explusalpha.MdEmu",
-          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/mdemu.apk",
-          "size": "12 MB"
         }
       ]
     },
     {
       "id": "roms",
-      "name": "Juegos",
+      "name": "Actualizacion y Bios",
       "icon": "💿",
       "items": [
         {
-          "name": "Tekken 3 (PS1)",
-          "desc": "Lucha · 350 MB",
-          "icon": "🎮",
-          "type": "rom",
-          "system": "PS1",
-          "file": "Tekken 3.chd",
-          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/tekken3.chd",
-          "size": "350 MB"
+          "name": "NexusConsolaV2",
+          "desc": "Actualizacion, NexusConsola",
+          "icon": "▶️",
+          "type": "apk",
+          "package": "com.nexuspc.launcher",
+          "image": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/nexuslogo.png",
+          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/apps/NexusConsolaV2.apk",
+          "size": "5 MB"
         },
         {
-          "name": "Sonic 2 (Genesis)",
+          "name": "Bios (Proximamente)",
           "desc": "Plataformas · 1 MB",
           "icon": "🕹️",
           "type": "rom",
-          "system": "GENESIS",
-          "file": "Sonic2.md",
-          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/genesis/Sonic2.md",
+          "system": "bios",
+          "file": "biosppsspp",
+          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/bios/biosppsspp.xx",
           "size": "1 MB"
-        },
-        {
-          "name": "Metal Slug 3 (Arcade)",
-          "desc": "Run & Gun · 30 MB",
-          "icon": "👾",
-          "type": "rom",
-          "system": "ARCADE",
-          "file": "mslug3.zip",
-          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/arcade/mslug3.zip",
-          "size": "30 MB"
         }
       ]
     }
