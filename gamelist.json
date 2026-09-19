@@ -109,7 +109,7 @@
       "name": "PPSSPP",
       "package": "org.ppsspp.ppsspp",
       "type": "view",
-      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/ppsspp.apk",
+      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/ppssppEmu.apk",
       "bios": [
         {
           "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/bios/CONFIGppsspp.ini",
