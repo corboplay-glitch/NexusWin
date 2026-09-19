@@ -18,11 +18,11 @@
         },
         {
           "name": "SmartTube",
-          "desc": "YouTube sin ads, liviano para TV",
+          "desc": "YouTube sin Publi, liviano para TV",
           "icon": "▶️",
           "type": "apk",
-          "package": "com.teamsmart.videomanager.tv",
-          "image": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/smarttube.png",
+          "package": "org.smarttube.stable",
+          "image": "https://cyberinsider.com/wp-content/uploads/2025/12/51758.png",
           "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/apps/smarttube.apk",
           "size": "20 MB"
         }
