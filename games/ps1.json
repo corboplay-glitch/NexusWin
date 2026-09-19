@@ -58,8 +58,8 @@
     "rating": 4.3,
     "genre": "Plataformas",
     "desc": "Juego de PS1. Descarga directa.",
-    "cover": "URL_CARATULA",
-    "shot": "URL_CAPTURA",
+    "cover": "https://m.media-amazon.com/images/M/MV5BOWE4YjAzMzQtNzNjMC00Yjg0LWJhZTMtZDBlNGY0ZjVlMDI0XkEyXkFqcGc@._V1_.jpg",
+    "shot": "https://ragglefragglereviews.com/wp-content/uploads/2021/07/vkwx1o.jpg",
     "file": "Bugs.Bunny.Lost.in.Time.bin",
     "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/Bugs.Bunny.Lost.in.Time.bin",
     "size": "560 MB"
@@ -71,11 +71,24 @@
     "rating": 4.8,
     "genre": "RPG",
     "desc": "Juego de PS1. Descarga directa.",
-    "cover": "URL_CARATULA",
-    "shot": "URL_CAPTURA",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFopIlH4X29TDWPNGMvq7Zcm9oAFuJjWXKoFgT2LcuE6JTkAFxaKm9WZY&s=10",
+    "shot": "https://s2-techtudo.glbimg.com/8OlGZaNzfHgBGV4_CVenpJkOAk8=/0x0:620x371/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/A/P/tYlBZWRsGLpJBPfnu5iQ/2011-10-07-chronotrigger.jpg",
     "file": "Chrono.Trigger.bin",
     "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/Chrono.Trigger.bin",
     "size": "522 MB"
+  },
+  {
+    "id": "crash_bash",
+    "title": "Crash Bash",
+    "year": 2000,
+    "rating": 4.2,
+    "genre": "Party",
+    "desc": "Juego de PS1. Descarga directa.",
+    "cover": "URL_CARATULA",
+    "shot": "URL_CAPTURA",
+    "file": "CRASH.BASH.bin",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/CRASH.BASH.bin",
+    "size": "188 MB"
   },
   {
     "id": "crash2",
@@ -102,19 +115,6 @@
     "file": "Crash.bandicoot.3.bin",
     "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/Crash.bandicoot.3.bin",
     "size": "329 MB"
-  },
-  {
-    "id": "crash_bash",
-    "title": "Crash Bash",
-    "year": 2000,
-    "rating": 4.2,
-    "genre": "Party",
-    "desc": "Juego de PS1. Descarga directa.",
-    "cover": "URL_CARATULA",
-    "shot": "URL_CAPTURA",
-    "file": "CRASH.BASH.bin",
-    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/CRASH.BASH.bin",
-    "size": "188 MB"
   },
   {
     "id": "ctr",
