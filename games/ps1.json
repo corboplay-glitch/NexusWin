@@ -6,8 +6,8 @@
     "rating": 4.0,
     "genre": "Aventura",
     "desc": "Juego de PS1. Descarga directa.",
-    "cover": "URL_CARATULA",
-    "shot": "URL_CAPTURA",
+    "cover": "https://static.wikia.nocookie.net/disneyypixar/images/b/b0/102_Dalmatians_Puppies_to_the_Rescue.jpg/revision/latest?cb=20180907001218&path-prefix=es",
+    "shot": "https://cdn.gracza.pl/galeria/galeria_duze3/357094609.jpg",
     "file": "102.Dalmatas.A.La.Rescousse.bin",
     "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/102.Dalmatas.A.La.Rescousse.bin",
     "size": "486 MB"
