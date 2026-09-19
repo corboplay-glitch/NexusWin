@@ -45,8 +45,8 @@
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/duckstation.apk",
       "bios": [
         {
-          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/bios/SCPH1001.BIN",
-          "to": "Download/ducksPs1bios/SCPH1001.BIN"
+          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/bios/DUCKSCPH5500.BIN",
+          "to": "Download/ducksPs1bios/DUCKSCPH5500.BIN"
         }
       ]
     },
