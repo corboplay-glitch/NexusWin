@@ -347,8 +347,8 @@
       "icon": "🎯",
       "accent": "#e0342f",
       "desc": "Revive las aventuras en 3D de la Nintendo 64.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/n64.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/n64.png",
+      "fondo": "https://sm.ign.com/t/ign_za/video/n/nintendo-s/nintendo-switch-n64-emulator-is-it-really-that-bad-performan_w8zk.1280.jpg",
+      "icono": "https://i.ytimg.com/vi/-G5VgnmDRoY/maxresdefault.jpg",
       "romDir": "N64",
       "destDir": "Download/NexusArcade/N64",
       "extensions": [
