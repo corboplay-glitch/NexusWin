@@ -27,5 +27,117 @@
     "emulators": [
       "ppsspp"
     ]
+  },
+  {
+    "id": "dbz_shin_budokai",
+    "title": "Dragon Ball Z: Shin Budokai - Another Road",
+    "year": 2007,
+    "rating": 4.5,
+    "genre": "Lucha",
+    "desc": "Juego de PSP. Descarga directa de ISO.",
+    "cover": "URL_CARATULA",
+    "shot": "URL_CAPTURA",
+    "file": "Dragon.Ball.Z.-.Shin.Budokai.-.Another.Road.iso",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/Dragon.Ball.Z.-.Shin.Budokai.-.Another.Road.iso",
+    "size": "505 MB",
+    "emulators": [
+      "ppsspp"
+    ]
+  },
+  {
+    "id": "minecraft_psp",
+    "title": "Minecraft (Homebrew PSP)",
+    "year": 2014,
+    "rating": 4.0,
+    "genre": "Aventura / Sandbox",
+    "desc": "Homebrew de Minecraft para PSP en formato EBOOT.",
+    "cover": "URL_CARATULA",
+    "shot": "URL_CAPTURA",
+    "file": "MINECRAFT_PBP/EBOOT.PBP",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/MINECRAFT_PBP.zip",
+    "size": "88.3 MB",
+    "emulators": [
+      "ppsspp"
+    ]
+  },
+  {
+    "id": "mk_unchained",
+    "title": "Mortal Kombat: Unchained",
+    "year": 2006,
+    "rating": 4.3,
+    "genre": "Lucha",
+    "desc": "Juego de PSP. Descarga directa de ISO.",
+    "cover": "URL_CARATULA",
+    "shot": "URL_CAPTURA",
+    "file": "Mortal.Kombat.-.Unchained.Europe.iso",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/Mortal.Kombat.-.Unchained.Europe.iso",
+    "size": "1.34 GB",
+    "emulators": [
+      "ppsspp"
+    ]
+  },
+  {
+    "id": "nfs_mw_510",
+    "title": "Need for Speed: Most Wanted 5-1-0",
+    "year": 2005,
+    "rating": 4.2,
+    "genre": "Carreras",
+    "desc": "Juego de PSP. Descarga directa de ISO.",
+    "cover": "URL_CARATULA",
+    "shot": "URL_CAPTURA",
+    "file": "Need.for.Speed.-.Most.Wanted.5-1-0.Europe.iso",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/Need.for.Speed.-.Most.Wanted.5-1-0.Europe.iso",
+    "size": "889 MB",
+    "emulators": [
+      "ppsspp"
+    ]
+  },
+  {
+    "id": "nfs_mw_alt",
+    "title": "Need for Speed: Most Wanted (Alt)",
+    "year": 2005,
+    "rating": 4.2,
+    "genre": "Carreras",
+    "desc": "Juego de PSP. Descarga directa de ISO.",
+    "cover": "URL_CARATULA",
+    "shot": "URL_CAPTURA",
+    "file": "NFS_MOST_WANTED.iso",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/NFS_MOST_WANTED.iso",
+    "size": "889 MB",
+    "emulators": [
+      "ppsspp"
+    ]
+  },
+  {
+    "id": "pes2022_closs",
+    "title": "PES 2022 (Mod Mariano Closs)",
+    "year": 2022,
+    "rating": 4.8,
+    "genre": "Deportes",
+    "desc": "Mod de PES para PSP con narración de Mariano Closs y cámara normal.",
+    "cover": "URL_CARATULA",
+    "shot": "URL_CAPTURA",
+    "file": "PES.2022.NARRA.M.CLOSS.BETA.2.PPSSPPP.CAMARA.NORMAL.iso",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/PES.2022.NARRA.M.CLOSS.BETA.2.PPSSPPP.CAMARA.NORMAL.iso",
+    "size": "754 MB",
+    "emulators": [
+      "ppsspp"
+    ]
+  },
+  {
+    "id": "pes2012",
+    "title": "Pro Evolution Soccer 2012",
+    "year": 2011,
+    "rating": 4.4,
+    "genre": "Deportes",
+    "desc": "Juego de PSP. Descarga directa de ISO.",
+    "cover": "URL_CARATULA",
+    "shot": "URL_CAPTURA",
+    "file": "Pro.Evolution.Soccer.2012.iso",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/psp/Pro.Evolution.Soccer.2012.iso",
+    "size": "1.68 GB",
+    "emulators": [
+      "ppsspp"
+    ]
   }
 ]
