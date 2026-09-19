@@ -7,6 +7,16 @@
       "icon": "📱",
       "items": [
         {
+          "name": "MultiGemaPRO",
+          "desc": "Version v2, Streming de TV, peliculas y serie",
+          "icon": "▶️",
+          "type": "apk",
+          "package": "com.defiance.tv",
+          "image": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/multigemalogo.png",
+          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/apps/MultiGemaPRO-V2.apk",
+          "size": "117 MB"
+        },
+        {
           "name": "SmartTube",
           "desc": "YouTube sin ads, liviano para TV",
           "icon": "▶️",
@@ -15,15 +25,6 @@
           "image": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/smarttube.png",
           "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/apps/smarttube.apk",
           "size": "20 MB"
-        },
-        {
-          "name": "Navegador",
-          "desc": "Navegador web liviano",
-          "icon": "🌐",
-          "type": "apk",
-          "package": "com.brave.browser",
-          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/apps/navegador.apk",
-          "size": "40 MB"
         }
       ]
     },
