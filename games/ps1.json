@@ -1,5 +1,18 @@
 [
   {
+    "id": "Star.Wars.e1",
+    "title": "Star Wars Episode I -The Phantom Menace",
+    "year": 2000,
+    "rating": 4.0,
+    "genre": "Aventura",
+    "desc": "Juego de PS1. Descarga directa.",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/15/The_phantom_menace_video_game.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+    "shot": "https://darylbaxter.com/content/images/2025/01/IMG_9004.JPG",
+    "file": "Star.Wars-Episode.I.bin",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/Star.Wars-Episode.I.bin",
+    "size": "664 MB"
+  },
+  {
     "id": "102_dalmatas",
     "title": "102 Dalmatas A La Rescousse",
     "year": 2000,
