@@ -62,18 +62,6 @@
         }
       ]
     },
-    "damonps2": {
-      "name": "DamonPS2",
-      "package": "com.damonps2.emulator",
-      "type": "view",
-      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/damonps2.apk"
-    },
-    "ps2app": {
-      "name": "PS2 Games (app)",
-      "package": "com.ps2games.br",
-      "type": "app",
-      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/ps2games.apk"
-    },
     "snes9x": {
       "name": "Snes9x EX+",
       "package": "com.explusalpha.Snes9xPlus",
@@ -134,12 +122,6 @@
       "package": "com.explusalpha.GbaEmu",
       "type": "view",
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/gbaemu.apk"
-    },
-    "drastic": {
-      "name": "DraStic (NDS)",
-      "package": "com.dsemu.drastic",
-      "type": "view",
-      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/drastic.apk"
     },
     "xash3d": {
       "name": "Xash3D",
@@ -358,25 +340,6 @@
         "retroarch64"
       ],
       "gamesUrl": "games/gba.json"
-    },
-    {
-      "id": "nds",
-      "name": "Nintendo DS",
-      "icon": "🎮",
-      "accent": "#c0392b",
-      "desc": "Doble pantalla, jugá con el control como touch.",
-      "fondo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWLImcv5ucsySrboNxxHizJmpyhSKYmPqoLbutcNVDoMsc2RhX-2WENIU&s=10",
-      "icono": "https://wallpaper.forfun.com/fetch/9e/9ef5db93af96019417104a93cce4de4f.jpeg",
-      "romDir": "NDS",
-      "destDir": "Download/NexusArcade/NDS",
-      "extensions": [
-        "nds",
-        "zip"
-      ],
-      "emulators": [
-        "drastic"
-      ],
-      "gamesUrl": "games/nds.json"
     },
     {
       "id": "n64",
