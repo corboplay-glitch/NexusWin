@@ -1,23 +1,23 @@
 [
   {
     "id": "port_xash",
-    "title": "Mod de Half-Life (Xash3D)",
+    "title": "Mod de valve (Xash3D)",
     "year": 2020,
     "rating": 4.5,
     "genre": "Port",
-    "desc": "El .zip trae la carpeta del mod (ej. 'valve/' o el nombre del mod). Se descomprime en la carpeta de Xash3D. Al dar Jugar abrís Xash3D y elegís el mod. Subí SOLO contenido libre / homebrew / que el usuario ya tenga.",
-    "cover": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/xash.jpg",
-    "shot": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/covers/ports/xash-2.jpg",
-    "file": "mi_mod",
-    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/mi_mod.zip",
-    "size": "150 MB",
+    "desc": "El .zip trae la carpeta del mod (ej. 'valve/' o el nombre del mod). Se descomprime en la carpeta de Xash3D. Al dar Jugar abrís Xash3D y elegís el mod.",
+    "cover": "https://m.media-amazon.com/images/M/MV5BOWU1MTVhOTUtNmU0Mi00MWNiLWIyOWQtMDFkOTFmMzc5ZTNkXkEyXkFqcGc@._V1_.jpg",
+    "shot": "https://i.ytimg.com/vi/EMciLe55afs/hqdefault.jpg",
+    "file": "datavalve",
+    "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ports/datavalve.zip",
+    "size": "600 MB",
     "emulators": [
       "xash3d"
     ]
   },
   {
     "id": "port_openbor",
-    "title": "Juego OpenBOR (ejemplo)",
+    "title": "Half-Life 2",
     "year": 2019,
     "rating": 4.4,
     "genre": "Beat'em up",
