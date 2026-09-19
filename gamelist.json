@@ -285,7 +285,7 @@
       "accent": "#1f6feb",
       "desc": "Los clásicos de Sega Mega Drive / Genesis.",
       "fondo": "https://es.gamewallpapers.com/download.php?img=wallpaper_sega_mega_drive_classics_01_1920x1080.jpg",
-      "icono": "https://media.sketchfab.com/models/f075faeafcc346a59370ccdb0f44a39f/thumbnails/8923e5ca1b494524b9064135a20831da/68e32b75b4f441efbd28e9b112f1ed17.jpeg",
+      "icono": "https://i.pinimg.com/736x/eb/d7/e5/ebd7e595660e15b36d203576bb96c70c.jpg",
       "romDir": "GENESIS",
       "destDir": "Download/NexusArcade/GENESIS",
       "extensions": [
@@ -309,8 +309,8 @@
       "icon": "🌀",
       "accent": "#e05a2b",
       "desc": "La última consola de Sega, adelantada a su época.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/dreamcast.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/dreamcast.png",
+      "fondo": "https://images.pexels.com/photos/28920053/pexels-photo-28920053/free-photo-of-consola-dreamcast-con-controlador-en-configuracion-vintage.jpeg?cs=tinysrgb&dpr=1&w=500",
+      "icono": "https://i.pinimg.com/736x/2e/c4/17/2ec417e8cd24c05afe2b775516c6070f.jpg",
       "romDir": "DC",
       "destDir": "Download/NexusArcade/DC",
       "extensions": [
@@ -332,8 +332,8 @@
       "icon": "🎛️",
       "accent": "#8b5cf6",
       "desc": "Los clásicos de Super Nintendo que marcaron una época.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/snes.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/snes.png",
+      "fondo": "https://i.pinimg.com/736x/8b/9c/1e/8b9c1e129f6aeb641bd21a9b077d07e5.jpg",
+      "icono": "https://i.pinimg.com/736x/18/69/13/186913b1065ffc9f2d1ab55fcbefe3aa.jpg",
       "romDir": "SNES",
       "destDir": "Download/NexusArcade/SNES",
       "extensions": [
@@ -355,8 +355,8 @@
       "icon": "🎯",
       "accent": "#5b3fb3",
       "desc": "La portátil de Nintendo con sus grandes hits.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/gba.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/gba.png",
+      "fondo": "https://hardzone.es/app/uploads-hardzone.es/2026/07/game-boy-advance.jpg",
+      "icono": "https://comicbook.com/wp-content/uploads/sites/4/2025/07/Game-Boy-Advance.jpg",
       "romDir": "GBA",
       "destDir": "Download/NexusArcade/GBA",
       "extensions": [
@@ -377,8 +377,8 @@
       "icon": "🎮",
       "accent": "#c0392b",
       "desc": "Doble pantalla, jugá con el control como touch.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/nds.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/nds.png",
+      "fondo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWLImcv5ucsySrboNxxHizJmpyhSKYmPqoLbutcNVDoMsc2RhX-2WENIU&s=10",
+      "icono": "https://wallpaper.forfun.com/fetch/9e/9ef5db93af96019417104a93cce4de4f.jpeg",
       "romDir": "NDS",
       "destDir": "Download/NexusArcade/NDS",
       "extensions": [
@@ -420,8 +420,8 @@
       "icon": "👾",
       "accent": "#f59e0b",
       "desc": "La adrenalina de los fichines, directo a tu tele.",
-      "fondo": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/fondos/arcade.jpg",
-      "icono": "https://raw.githubusercontent.com/corboplay-glitch/NexusWin/main/logos/arcade.png",
+      "fondo": "https://t3.ftcdn.net/jpg/03/06/59/52/360_F_306595210_sTtKiI1G7Ulo8q3OfAXpKvMrDXOEb8eJ.jpg",
+      "icono": "https://cdn.dribbble.com/userupload/31223306/file/original-56a1099d34831c96c35a3ee9d8082f5b.png",
       "romDir": "ARCADE",
       "destDir": "Download/NexusArcade/ARCADE",
       "extensions": [
