@@ -19,8 +19,8 @@
     "rating": 4.5,
     "genre": "Action RPG",
     "desc": "Juego de PS1. Descarga directa.",
-    "cover": "URL_CARATULA",
-    "shot": "URL_CAPTURA",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXnQnJngZ15mIXPZ6NstZ0Qo_PpUyzlywaj41AFcUmLZ_JiJRM3hz2x1Ay&s=10",
+    "shot": "https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/SVVS3RYVKNIWXIJ575ZIYHM3ZA.jpg",
     "file": "Alundra.bin",
     "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/Alundra.bin",
     "size": "515 MB"
@@ -32,8 +32,8 @@
     "rating": 4.0,
     "genre": "Acción",
     "desc": "Juego de PS1. Descarga directa.",
-    "cover": "URL_CARATULA",
-    "shot": "URL_CAPTURA",
+    "cover": "https://superretro.com.au/cdn/shop/files/blade-ps122737-624563_1024x.jpg?v=1713410754",
+    "shot": "https://i.ytimg.com/vi/tH_CJKTCcrw/maxresdefault.jpg",
     "file": "Blade.USA.bin",
     "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/Blade.USA.bin",
     "size": "596 MB"
@@ -45,8 +45,8 @@
     "rating": 4.6,
     "genre": "RPG",
     "desc": "Juego de PS1. Descarga directa.",
-    "cover": "URL_CARATULA",
-    "shot": "URL_CAPTURA",
+    "cover": "https://m.media-amazon.com/images/I/61gvelju3ZL._AC_UF1000,1000_QL80_.jpg",
+    "shot": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScqHkOCotQnoUgosf2djLiy5pCB4WXUSqZ3Fq1EEsiqZlfJeBiigObv08&s=10",
     "file": "Breath.of.fire.3.BIN",
     "download": "https://github.com/corboplay-glitch/NexusWin/releases/download/ps1/Breath.of.fire.3.BIN",
     "size": "458 MB"
