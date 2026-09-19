@@ -82,7 +82,7 @@
     },
     "mupen64": {
       "name": "Mupen64Plus FZ",
-      "package": "org.mupen64plusae.v3.fzurita",
+      "package": "org.mupen64plusae.v3.fzurita.pro",
       "type": "view",
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/mupen64.apk"
     },
@@ -142,8 +142,8 @@
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/drastic.apk"
     },
     "xash3d": {
-      "name": "Xash3D FWGS",
-      "package": "su.xash.engine",
+      "name": "Xash3D",
+      "package": "su.xash.engine.test",
       "type": "app",
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/xash3d.apk"
     },
@@ -152,18 +152,6 @@
       "package": "org.openbor.engine",
       "type": "app",
       "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/openbor.apk"
-    },
-    "scummvm": {
-      "name": "ScummVM",
-      "package": "org.scummvm.scummvm",
-      "type": "app",
-      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/scummvm.apk"
-    },
-    "play": {
-      "name": "Play! (PS2)",
-      "package": "com.virtualapplications.play",
-      "type": "view",
-      "apk": "https://github.com/corboplay-glitch/NexusWin/releases/download/emus/play.apk"
     }
   },
   "systems": [
