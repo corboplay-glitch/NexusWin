@@ -17,6 +17,16 @@
           "size": "117 MB"
         },
         {
+          "name": "Minecraft Bedrock",
+          "desc": "minecraft original , entra y juga , para online logueate con tu cuenta",
+          "icon": "🕹️",
+          "type": "apk",
+          "package": "com.mojang.minecraftpe",
+          "image": "https://i.ytimg.com/vi/NO1XZTbgzw0/maxresdefault.jpg",
+          "url": "https://github.com/corboplay-glitch/NexusWin/releases/download/apps/minecraft-26-32.apk",
+          "size": "117 MB"
+        },
+        {
           "name": "SmartTube",
           "desc": "YouTube sin Publi, liviano para TV",
           "icon": "▶️",
